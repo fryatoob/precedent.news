@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Precedent.news — Law, politics, and policy intelligence. Analysis and outcomes, not summaries.">
+  <meta name="theme-color" content="#080807">
+  <meta property="og:title" content="Precedent.news">
+  <meta property="og:description" content="Law, politics, and policy intelligence. Analysis and outcomes, not summaries.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://precedent.news">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@precedentbrief">
+  <title>Precedent.news — Law, Politics, and Policy Intelligence</title>
+  <link rel="stylesheet" href="src/styles/tokens.css">
+  <link rel="stylesheet" href="src/styles/base.css">
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- BREAKING TICKER -->
+  <div class="ticker" aria-label="Breaking news ticker">
+    <div id="ticker-track"></div>
+  </div>
+
+  <!-- MASTHEAD -->
+  <header class="masthead" role="banner">
+    <div class="masthead__inner wrap">
+      <div class="masthead__left">
+        <span class="masthead__date"></span>
+        <span class="masthead__edition">Free Edition</span>
+      </div>
+      <div class="masthead__brand">
+        <div class="masthead__name">Preceden<em>t</em></div>
+        <div class="masthead__tagline">Law &middot; Politics &middot; Policy Intelligence</div>
+      </div>
+      <div class="masthead__right">
+        <a class="masthead__subscribe" href="#subscribe">Subscribe Free</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav__inner wrap">
+      <a class="site-nav__link site-nav__link--active" href="/">Latest</a>
+      <a class="site-nav__link" href="/pages/section.html?s=law">Law</a>
+      <a class="site-nav__link" href="/pages/section.html?s=politics">Politics</a>
+      <a class="site-nav__link" href="/pages/section.html?s=courts">Courts</a>
+      <a class="site-nav__link" href="/pages/section.html?s=congress">Congress</a>
+      <a class="site-nav__link" href="/pages/section.html?s=business">Business</a>
+      <a class="site-nav__link" href="/pages/section.html?s=ai-policy">AI Policy</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero wrap" aria-labelledby="lead-story-title">
+      <div id="hero-container"></div>
+    </section>
+
+    <!-- BRIEFING BAR -->
+    <div class="briefing-bar" id="briefing-bar" role="complementary" aria-label="Precedent briefing"></div>
+
+    <!-- LATEST ANALYSIS -->
+    <section class="feed wrap" aria-labelledby="latest-title">
+      <div class="section-hd" data-reveal>
+        <h2 class="section-hd__title" id="latest-title">Latest Analysis</h2>
+        <a class="section-hd__link" href="/pages/latest.html">View all</a>
+      </div>
+      <div class="feed__grid-3" id="latest-feed"></div>
+    </section>
+
+    <!-- SUBSCRIBE -->
+    <section class="subscribe-block" id="subscribe" aria-labelledby="subscribe-title">
+      <div class="subscribe-block__inner wrap">
+        <div class="subscribe-block__copy">
+          <div class="subscribe-block__eyebrow">Precedent.news</div>
+          <h2 class="subscribe-block__title" id="subscribe-title">Intelligence,<br>not information.</h2>
+          <p class="subscribe-block__sub">We explain what happened, why it matters, and what happens next. Free. No spin. No summaries.</p>
+        </div>
+        <form class="subscribe-block__form" onsubmit="handleSubscribe(event)">
+          <input
+            class="subscribe-block__input"
+            type="email"
+            placeholder="your@email.com"
+            required
+            aria-label="Email address"
+          >
+          <button class="subscribe-block__btn" type="submit">Subscribe Free</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- CATEGORY COLUMNS -->
+    <section class="feed wrap" aria-labelledby="courts-title" style="padding-top: var(--s12);">
+      <div class="two-col">
+        <div>
+          <div class="section-hd" data-reveal>
+            <h2 class="section-hd__title" id="courts-title">Courts &amp; Law</h2>
+            <a class="section-hd__link" href="/pages/section.html?s=courts">More</a>
+          </div>
+          <div id="courts-feed"></div>
+        </div>
+        <div>
+          <div class="section-hd" data-reveal>
+            <h2 class="section-hd__title" id="politics-title">Politics &amp; Policy</h2>
+            <a class="section-hd__link" href="/pages/section.html?s=politics">More</a>
+          </div>
+          <div id="politics-feed"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer__grid wrap">
+      <div class="footer__brand">
+        <div class="footer__brand-name">Preceden<span>t</span></div>
+        <p class="footer__brand-desc">Law and politics intelligence for people who need to understand what happens next. Analysis and outcomes, not summaries.</p>
+        <span class="footer__copy">&copy; 2026 Precedent.news. All rights reserved.</span>
+      </div>
+      <div>
+        <div class="footer__col-title">Sections</div>
+        <ul class="footer__links">
+          <li><a href="/pages/section.html?s=law">Law</a></li>
+          <li><a href="/pages/section.html?s=politics">Politics</a></li>
+          <li><a href="/pages/section.html?s=courts">Courts</a></li>
+          <li><a href="/pages/section.html?s=congress">Congress</a></li>
+          <li><a href="/pages/section.html?s=business">Business</a></li>
+          <li><a href="/pages/section.html?s=ai-policy">AI Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">Connect</div>
+        <ul class="footer__links">
+          <li><a href="#subscribe">Subscribe</a></li>
+          <li><a href="https://x.com/precedentbrief" target="_blank" rel="noopener">X / Twitter</a></li>
+          <li><a href="https://instagram.com/precedentbrief" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="mailto:hello@precedent.news">Contact</a></li>
+          <li><a href="mailto:tips@precedent.news">Submit a Tip</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom wrap">
+      <span class="footer__copy">No spin. No summaries. Analysis and outcomes.</span>
+      <div class="footer__social">
+        <a href="https://x.com/precedentbrief" target="_blank" rel="noopener">X</a>
+        <a href="https://instagram.com/precedentbrief" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://precedentbrief.substack.com" target="_blank" rel="noopener">Substack</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="src/scripts/main.js"></script>
+  <script>
+    function handleSubscribe(e) {
+      e.preventDefault();
+      const email = e.target.querySelector('input').value;
+      window.open(`https://precedentbrief.substack.com?email=${encodeURIComponent(email)}`, '_blank');
+    }
+  </script>
+
+</body>
+</html>

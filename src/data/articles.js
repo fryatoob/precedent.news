@@ -1,0 +1,146 @@
+/**
+ * articles.js
+ * Precedent.news — Article Data Store
+ *
+ * Structure:
+ * - id:        URL slug (kebab-case, unique)
+ * - title:     Full headline
+ * - dek:       Subheadline / deck text
+ * - category:  Display category label
+ * - section:   URL section (law | politics | courts | congress | business | ai-policy)
+ * - date:      ISO date string
+ * - readTime:  Estimated read time
+ * - featured:  true = hero story
+ * - developing: true = show "Developing" badge
+ * - keyPoints: Array of bullet strings (3-5)
+ * - body:      Object with section content
+ * - scenarios: Array of scenario objects
+ */
+
+export const articles = [
+  {
+    id: "iran-ship-seizure",
+    title: "The US Navy Seizes an Iranian Cargo Ship in the Gulf. The Legal and Strategic Fallout Is Just Beginning.",
+    dek: "The boarding operation marks the first publicly confirmed enforcement action under Trump's stated naval blockade of Iran. But the word 'blockade' carries legal obligations the administration may not intend.",
+    category: "Law",
+    section: "law",
+    date: "April 23, 2026",
+    readTime: "8 min read",
+    featured: true,
+    developing: false,
+    keyPoints: [
+      "US naval forces boarded and seized an Iranian-flagged cargo vessel in the Gulf of Oman, releasing video footage.",
+      "President Trump described the seizure as enforcement of a naval blockade — a term with demanding legal meaning under international law.",
+      "The release of video footage is a deliberate signaling act designed for Iranian, regional, and domestic audiences.",
+      "The seizure occurs against the backdrop of active US-Iran nuclear negotiations in Oman, creating tension between diplomatic and military tracks."
+    ],
+    body: {
+      whatHappened: "US Navy forces intercepted and boarded an Iranian-flagged cargo ship in the Gulf, seizing the vessel and releasing video documentation of the operation. President Trump announced the action, characterizing it as enforcement of a naval blockade against Iran. The footage showed armed US personnel conducting a shipboarding in contested waters.",
+      analysis: "The word 'blockade' is doing enormous legal and political work here. Under international law, a blockade is an act of war that requires formal declaration, notification to neutral states, and consistent enforcement without discrimination. None of those conditions have been publicly established. What the US is more likely conducting is a pattern of interdictions under existing executive authority and UN Security Council sanctions resolutions targeting Iranian arms transfers. Trump's use of the blockade framing is designed to maximize deterrent pressure on Tehran, not to establish a formal legal posture.",
+      whyItMatters: "For Iran, this demonstrates the US is willing to impose costs on Iranian commerce and prestige without waiting for a diplomatic resolution. For US allies in Europe and Asia who depend on Gulf shipping lanes, the seizure raises questions about whether American naval operations could trigger broader disruptions to commercial traffic."
+    },
+    scenarios: [
+      {
+        type: "likely",
+        label: "Most Likely Outcome",
+        body: "Iran files formal protests through the International Maritime Organization and the UN Security Council while avoiding military escalation. The nuclear talks in Oman continue but with reduced Iranian flexibility. Gulf shipping insurance premiums rise 15 to 25 percent within the month."
+      },
+      {
+        type: "alternative",
+        label: "Alternative Path",
+        body: "Iran suspends nuclear negotiations in Oman, citing the seizure as evidence of American bad faith. European mediators intervene to restart talks under modified terms that include a naval de-escalation framework."
+      },
+      {
+        type: "wildcard",
+        label: "Wildcard Risk",
+        body: "An Iranian Revolutionary Guard Corps naval unit engages a US vessel during a future interdiction attempt, triggering a limited military exchange in the Strait of Hormuz. Oil prices spike 20 percent within 48 hours."
+      }
+    ]
+  },
+  {
+    id: "kuwait-journalist",
+    title: "Kuwaiti Court Acquits US-Kuwaiti Journalist Charged Over Social Media Reposts",
+    dek: "The ruling narrows the government's room to treat reposted political commentary as original criminal speech.",
+    category: "Courts",
+    section: "courts",
+    date: "April 23, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: true,
+    keyPoints: [
+      "A Kuwaiti court acquitted journalist Ahmed Shihab-Eldin on charges of spreading false information via social media reposts.",
+      "The case drew international attention because Shihab-Eldin holds dual US-Kuwaiti citizenship.",
+      "Press freedom organizations had called the charges an overreach of Kuwait's cybercrime statutes."
+    ],
+    body: {
+      whatHappened: "A Kuwaiti court acquitted US-Kuwaiti journalist Ahmed Shihab-Eldin on charges that included spreading false information. Authorities had detained Shihab-Eldin after he reposted images on social media related to the conflict involving Iran.",
+      analysis: "Kuwait criminalizes the spread of false information and content deemed harmful to national security under its cybercrime and press laws. The case drew attention from press freedom organizations and US officials because Shihab-Eldin held dual citizenship. The acquittal does not alter the statutes under which he was charged — it only establishes that reposting content does not automatically constitute original criminal speech under the specific facts presented.",
+      whyItMatters: "Press freedom organizations had called for Shihab-Eldin's release, arguing the charges targeted legitimate journalistic activity. The case carried implications for other journalists and dual nationals operating in Gulf states under similar legal frameworks."
+    },
+    scenarios: [
+      {
+        type: "likely",
+        label: "Most Likely Outcome",
+        body: "Prosecutors decline to appeal. The case becomes a reference point in future cybercrime prosecutions involving reposted content, marginally raising the evidentiary bar for similar charges."
+      },
+      {
+        type: "alternative",
+        label: "Alternative Path",
+        body: "Kuwait's parliament uses the case to debate revisions to its cybercrime statutes, with international pressure from the US State Department contributing to legislative reform."
+      }
+    ]
+  },
+  {
+    id: "cannabis-rescheduling",
+    title: "Cannabis Rescheduling Clears Federal Hurdle as DEA Finalizes Schedule III Rule",
+    dek: "The policy change shifts federal treatment of marijuana without creating full legalization — and leaves a tangle of legal questions for businesses and prosecutors.",
+    category: "Congress",
+    section: "congress",
+    date: "April 23, 2026",
+    readTime: "6 min read",
+    featured: false,
+    developing: false,
+    keyPoints: [
+      "The DEA finalized a rule reclassifying cannabis from Schedule I to Schedule III under the Controlled Substances Act.",
+      "The change does not legalize recreational marijuana at the federal level.",
+      "Cannabis businesses operating legally under state law may gain access to standard federal tax deductions previously blocked by a tax code provision targeting Schedule I drug traffickers."
+    ],
+    body: {
+      whatHappened: "The Trump administration moved to reschedule cannabis from Schedule I to Schedule III under the Controlled Substances Act. The Drug Enforcement Administration finalized the rule following a recommendation from the Department of Health and Human Services.",
+      analysis: "Under the Controlled Substances Act of 1970, Schedule I drugs are defined as having no accepted medical use and a high potential for abuse. Marijuana has held that classification for over 50 years. Schedule III drugs, which now include cannabis, are defined as having moderate to low potential for dependence. The Biden administration initiated this rescheduling process in 2024. The Trump administration continued and completed that process. The rescheduling does not affect the legal status of recreational cannabis in states where it remains prohibited.",
+      whyItMatters: "Researchers will face fewer federal barriers to studying cannabis, which scientists have long cited as an obstacle to clinical trials. Marijuana businesses operating legally under state law may gain access to standard federal tax deductions previously blocked by the tax code provision targeting Schedule I drug traffickers."
+    },
+    scenarios: [
+      {
+        type: "likely",
+        label: "Most Likely Outcome",
+        body: "Congress moves to further codify cannabis protections or push for full descheduling through legislation. Federal prosecutors update enforcement guidance to reflect the new classification."
+      },
+      {
+        type: "alternative",
+        label: "Alternative Path",
+        body: "The rescheduling survives legal challenges from opponents of expanded cannabis access, but state-level prohibition remains unchanged in roughly a dozen states."
+      }
+    ]
+  }
+];
+
+export function getFeatured() {
+  return articles.find(a => a.featured) || articles[0];
+}
+
+export function getDeveloping() {
+  return articles.filter(a => !a.featured).slice(0, 4);
+}
+
+export function getLatest(limit = 6) {
+  return articles.slice(0, limit);
+}
+
+export function getBySection(section, limit = 10) {
+  return articles.filter(a => a.section === section).slice(0, limit);
+}
+
+export function getById(id) {
+  return articles.find(a => a.id === id);
+}
