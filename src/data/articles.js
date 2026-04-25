@@ -19,6 +19,32 @@
 
 export const articles = [
   {
+    id: "democrats-fifa-affordability-cost-of-living",
+    title: "Democrats Target FIFA as Their New Affordability Villain",
+    dek: "Congressional Democrats are folding FIFA's ticket and hospitality pricing into a broader cost-of-living campaign ahead of the 2026 World Cup.",
+    category: "Politics",
+    section: "politics",
+    date: "July 25, 2025",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    keyPoints: [
+    "Democrats are targeting FIFA alongside groceries, utilities, and landlords in their emerging cost-of-living messaging strategy., The 2026 FIFA World Cup, hosted across the United States, Canada, and Mexico, has given lawmakers a concrete and timely hook for affordability arguments., Progressive and moderate Democrats alike see FIFA pricing practices as a politically safe target that resonates with working-class voters."
+    ],
+    body: {
+      whatHappened: "Democratic lawmakers and strategists are incorporating FIFA into their cost-of-living messaging, framing the world soccer governing body as another corporate actor squeezing American consumers. The push comes ahead of the 2026 FIFA World Cup, which will be hosted in part by American cities. Complaints center on ticket prices, hospitality packages, and ancillary costs that critics say put the tournament out of reach for ordinary fans.",
+      analysis: "Democrats are broadening their affordability coalition by adding a culturally resonant target to a list that already includes supermarkets, energy companies, and landlords. The FIFA angle offers a rare opportunity to criticize a foreign-headquartered organization on domestic consumer grounds without triggering traditional free-trade sensitivities. FIFA operates as a nonprofit under Swiss law but generates billions in commercial revenue, a structure that gives politicians room to argue that consumer protections and antitrust scrutiny should apply to its U.S. market activities. The political mechanics are straightforward: attaching a globally recognized villain to a price-gouging narrative reinforces a populist economic frame that party strategists believe drives turnout among lower- and middle-income voters. Whether lawmakers pursue actual legislation, such as ticketing transparency requirements or antitrust referrals, or keep the campaign rhetorical remains the central unresolved question.",
+      whyItMatters: "Fans in host cities including New York, Los Angeles, Dallas, and Miami face a direct cost impact if ticket and ancillary pricing remains at current levels. Local small businesses that expected a tourism windfall could find themselves undercut if high prices suppress attendance or fan spending. Democrats in competitive suburban districts gain a low-risk populist message that does not require a floor vote or committee action to land with voters. FIFA and its commercial partners, including sponsors and broadcasters, face reputational pressure that could complicate negotiations over future U.S. hosting rights."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "pappas-holds-cash-advantage-over-gop-rivals-new-hampshire",
     title: "Pappas Holds Cash Advantage Over GOP Rivals in New Hampshire",
     dek: "The Democratic candidate has out-raised and out-banked his Republican opponents ahead of the Senate race.",
