@@ -55,7 +55,34 @@ export default async function handler(req, res) {
   }
 
   // Parse the article data
-  const article = req.body;
+  // Claude sometimes wraps JSON in markdown or adds extra text
+  // This handles raw JSON strings, wrapped JSON, and pre-parsed objects
+  let article = req.body;
+
+  if (typeof article === 'string') {
+    // Strip markdown code fences if present
+    let cleaned = article
+      .replace(/^```json\s*/i, '')
+      .replace(/^```\s*/i, '')
+      .replace(/\s*```$/i, '')
+      .trim();
+
+    // Extract just the JSON object if there's extra text around it
+    const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      cleaned = jsonMatch[0];
+    }
+
+    try {
+      article = JSON.parse(cleaned);
+    } catch (e) {
+      return res.status(400).json({
+        error: 'Invalid JSON in request body',
+        detail: e.message,
+        received: article.slice(0, 200)
+      });
+    }
+  }
 
   // Validate required fields
   const required = ['id', 'title', 'dek', 'category', 'section', 'date', 'body'];
