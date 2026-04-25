@@ -19,6 +19,32 @@
 
 export const articles = [
   {
+    id: "barr-keeps-cash-lead-kentucky-senate-gop-primary",
+    title: "Barr Keeps Cash Lead in Kentucky Senate GOP Primary",
+    dek: "Rep. Andy Barr holds a nearly \$4.2 million war chest as the Kentucky Senate Republican primary heats up.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "6 min read",
+    featured: false,
+    developing: false,
+    keyPoints: [
+    "Rep. Andy Barr leads Kentucky Senate GOP primary rivals in cash on hand with nearly \$4.2 million., The fundraising advantage gives Barr a structural edge in paid media and ground operations heading into the primary., Rivals will need to close the financial gap quickly or rely on outside spending to remain competitive."
+    ],
+    body: {
+      whatHappened: "Rep. Andy Barr holds a cash-on-hand lead of nearly \$4.2 million in the Kentucky Republican Senate primary. The fundraising figures reflect the most recent filing period and place Barr ahead of his primary competitors. The seat is open following Sen. Mitch McConnell's announcement that he would not seek another term.",
+      analysis: "Money does not guarantee primary victories, but it creates compounding advantages that are difficult for rivals to overcome. Barr can lock in early advertising rates, build a professional field operation, and weather unexpected attacks without scrambling for emergency fundraising. In Senate primaries with crowded fields, candidates who trail badly in cash often depend on super PAC intervention or earned media from controversy, both of which are unreliable substitutes. Kentucky's GOP primary electorate leans heavily toward candidates with institutional credibility, and a strong war chest signals exactly that to donors, party operatives, and voters who read endorsement cues from financial momentum. The open seat dynamic also raises the stakes considerably, as the winner is heavily favored in a general election in a state Donald Trump carried by wide margins. Barr's incumbency as a House member gives him a donor network that challengers without federal fundraising experience will struggle to replicate.",
+      whyItMatters: "A well-funded primary frontrunner can define rivals before those rivals define themselves, a decisive advantage in a low-information primary race. Voters who lack strong candidate preferences often default to the candidate they recognize, and name recognition is purchased largely through advertising. Outside groups backing underfunded challengers will face pressure to spend early and heavily just to keep the race competitive. The eventual Republican nominee is widely expected to win the general election, making the primary the decisive contest for who represents Kentucky in the Senate."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "iran-ship-seizure",
     title: "The US Navy Seizes an Iranian Cargo Ship in the Gulf. The Legal and Strategic Fallout Is Just Beginning.",
     dek: "The boarding operation marks the first publicly confirmed enforcement action under Trump's stated naval blockade of Iran. But the word 'blockade' carries legal obligations the administration may not intend.",
