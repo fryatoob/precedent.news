@@ -19,6 +19,32 @@
 
 export const articles = [
   {
+    id: "pappas-holds-cash-advantage-over-gop-rivals-new-hampshire",
+    title: "Pappas Holds Cash Advantage Over GOP Rivals in New Hampshire",
+    dek: "The Democratic candidate has out-raised and out-banked his Republican opponents ahead of the Senate race.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "6 min read",
+    featured: false,
+    developing: false,
+    keyPoints: [
+    "Democrat Chris Pappas has raised more money than each of his Republican competitors in the New Hampshire Senate race., Pappas holds a larger cash-on-hand balance than his GOP rivals, giving him a structural advantage heading into the campaign., The fundraising gap signals differing levels of donor enthusiasm and organizational strength between the two parties in New Hampshire."
+    ],
+    body: {
+      whatHappened: "Democrat Chris Pappas has out-raised his Republican competitors in the New Hampshire Senate race and holds more cash on hand than any of his GOP rivals. The fundraising figures reflect the most recent campaign finance reporting period. Pappas is running for the Senate seat in a state that has trended competitive in recent election cycles.",
+      analysis: "A cash advantage at this stage of a Senate race carries compounding benefits. Candidates with larger war chests can lock in advertising rates earlier, build ground operations sooner, and deter potential donors from giving to opponents. Republican rivals who trail in fundraising face a harder path to viability, as donor networks often consolidate around candidates who demonstrate financial momentum. In competitive states like New Hampshire, early money also influences how party committees and outside groups allocate resources, creating a feedback loop that can widen initial gaps. The Democratic advantage here may reflect stronger small-dollar donor infrastructure built during previous Pappas congressional campaigns.",
+      whyItMatters: "A sustained cash gap benefits Pappas by allowing earlier and heavier investment in voter contact and media. Republican candidates who cannot close the fundraising deficit risk being passed over by national party committees focused on winnable races. New Hampshire is a perennial battleground, and control of the Senate could hinge on outcomes in states like this. Voters in the state will likely see an asymmetric air war if the financial disparity persists through the summer."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "barr-keeps-cash-lead-kentucky-senate-gop-primary",
     title: "Barr Keeps Cash Lead in Kentucky Senate GOP Primary",
     dek: "Rep. Andy Barr holds a nearly \$4.2 million war chest as the Kentucky Senate Republican primary heats up.",
