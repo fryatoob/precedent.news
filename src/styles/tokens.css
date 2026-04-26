@@ -4,17 +4,17 @@
  */
 :root {
   /* Color */
-  --black:        #E8500A;
-  --white:        #FFFFFF;
+  --black:        #080807;
+  --white:        #F8F7F4;
   --orange:       #E8500A;
   --orange-dark:  #B83D07;
-  --orange-pale:  #FFF3EE;
-  --gray-90:      #FDEEE6;
+  --orange-pale:  #FDF1EB;
+  --gray-90:      #1A1A18;
   --gray-70:      #3D3D3A;
   --gray-50:      #717170;
   --gray-30:      #ADADAB;
-  --gray-10:      #FFE0D0;
-  --gray-05:      #FFF8F5;
+  --gray-10:      #E5E5E2;
+  --gray-05:      #F2F2EF;
   /* Typography */
   --font-headline: 'Bebas Neue', 'Arial Narrow', Arial, sans-serif;
   --font-display:  'Playfair Display', Georgia, serif;
@@ -35,7 +35,7 @@
   --base: 250ms;
   --slow: 500ms;
   /* Borders */
-  --border-heavy: 2px solid var(--orange);
+  --border-heavy: 2px solid var(--black);
   --border-light: 1px solid var(--gray-10);
   --border-rule:  1px solid var(--gray-30);
 }
