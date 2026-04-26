@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "from-iran-to-paris-weather-alleged-prediction-market-violations-start-stacking-up",
+    title: "Alleged Prediction Market Violations Start Stacking Up, From Iran to Paris Weather",
+    dek: "Regulatory fault lines are emerging as frontline Democrats push to rein in prediction market companies facing mounting accusations of violations.",
+    category: "Law",
+    section: "law",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "https://static.politico.com/6a/91/b4e58f334920ac41b137d78fa60d/prediction-markets-explainer-46186.jpg",
+    keyPoints: [
+    "Multiple alleged regulatory violations are accumulating against prediction market operators, spanning geopolitical and weather-related contracts., Jurisdictional disputes over which agency holds regulatory authority are fracturing the oversight landscape., Frontline Democrats are emerging as the primary political force pushing for stricter enforcement and clearer rules."
+    ],
+    body: {
+      whatHappened: "Prediction market companies face a growing list of alleged regulatory violations covering contracts tied to events ranging from Iranian geopolitics to Paris weather outcomes. Regulators and lawmakers are clashing over which agency holds primary jurisdiction over these platforms. Several frontline Democratic lawmakers have stepped forward to lead the push for tighter oversight and enforcement action.",
+      analysis: "The jurisdictional dispute at the center of this fight reflects a structural gap in U.S. financial regulation, where the Commodity Futures Trading Commission and other bodies have overlapping and contested claims over event-based contracts. Prediction markets occupy a legal gray zone because their contracts can be characterized as either futures instruments or gambling products depending on the regulator doing the characterizing. This ambiguity has allowed platforms to scale rapidly while enforcement has lagged, creating a first-mover advantage that now makes aggressive regulatory action politically and legally complicated. The accumulation of alleged violations across unrelated subject matter suggests either systemic compliance failures or deliberate boundary-testing by operators. Democrats pushing hardest on this issue tend to represent competitive districts where consumer protection messaging carries electoral weight, giving them both policy and political incentives to act. The stacking of cases also raises the question of whether regulators will pursue enforcement piecemeal or seek a broader rulemaking that settles the jurisdictional question once and for all.",
+      whyItMatters: "Prediction market platforms stand to lose significant operational freedom if Congress or regulators impose new restrictions or clarify jurisdiction in ways that require costly compliance infrastructure. Retail participants who use these platforms for hedging or speculation face uncertainty about the legal standing of their contracts. Federal agencies including the CFTC risk institutional embarrassment if courts or Congress determine they failed to act on clear violations within their existing authority. A regulatory crackdown could also chill a market that some economists argue improves information aggregation on issues of genuine public interest."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "nations-cartoonists-on-the-week-in-politics",
     title: "The Nation's Cartoonists on the Week in Politics",
     dek: "Political cartoonists from across the spectrum capture the defining moments of the week in Washington and beyond.",
