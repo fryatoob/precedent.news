@@ -20,6 +20,33 @@
 
 export const articles = [
   {
+    id: "dirk-kempthorne-former-idaho-governor-us-interior-secretary-dies-at-74",
+    title: "Dirk Kempthorne, Former Idaho Governor and U.S. Interior Secretary, Dies at 74",
+    dek: "The Republican politician served as governor of Idaho and led the Interior Department under President George W. Bush.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "2 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Dirk Kempthorne died at age 74 after a colon cancer diagnosis last year., Kempthorne served as governor of Idaho and as U.S. Secretary of the Interior under President George W. Bush., He was a prominent Republican figure in Western state politics and federal land management policy."
+    ],
+    body: {
+      whatHappened: "Dirk Kempthorne, a Republican who served as governor of Idaho and as U.S. Secretary of the Interior under President George W. Bush, died at age 74. He had been diagnosed with colon cancer last year. Kempthorne also previously served as a U.S. senator representing Idaho.",
+      analysis: "Kempthorne's career traced the arc of Western Republican politics, where tensions between federal land control and state autonomy defined much of the policy landscape. As Interior secretary from 2006 to 2009, he oversaw a department that manages roughly 20 percent of U.S. land, giving him significant influence over energy development, conservation, and Native American affairs. His tenure coincided with growing industry pressure to expand oil and gas extraction on federal lands, a debate that remains central to Interior Department policy today. His background as a Western governor shaped his approach to federalism, favoring greater state input into land-use decisions. The political coalition he represented, fiscally conservative and skeptical of federal overreach, continues to drive Republican energy and environmental policy.",
+      whyItMatters: "Kempthorne's death removes a significant voice from the cohort of Republican officials who shaped federal land and energy policy in the post-Clinton era. Western states and energy industry stakeholders lose an experienced advocate who understood both executive branch mechanics and state-level political pressures. Conservation groups, who often clashed with his Interior Department over endangered species and drilling decisions, viewed his legacy as a cautionary example of industry-friendly federal management. His career reflected enduring conflicts over who controls vast stretches of public land in the American West."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "iran-paris-weather-prediction-market-violations",
     title: "From Iran to Paris Weather: Alleged Prediction Market Violations Start Stacking Up",
     dek: "]Regulators and frontline Democrats are clashing over jurisdiction as complaints against prediction market platforms multiply.",
