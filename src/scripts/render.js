@@ -213,7 +213,7 @@ export function renderArticle() {
         <span class="article-header__meta-divider"></span>
         <span class="ts">Precedent.news</span>
       </div>
-      ${article.image ? `
+      ${article.image && article.image.trim() ? `
         <div class="article-header__image">
           <img src="${article.image}" alt="${article.title}" style="width:100%;max-height:480px;object-fit:cover;display:block;margin-top:var(--s8);border:2px solid var(--gray-10);">
         </div>
