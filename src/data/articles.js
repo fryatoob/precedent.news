@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "former-aide-suing-eric-adams-joins-mamdani-administration",
+    title: "Former Aide Suing Eric Adams Joins Mamdani Administration",
+    dek: "A former Adams staffer who filed a lawsuit against the ex-mayor is taking a role in the incoming Mamdani city government.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "A former aide to Eric Adams who sued him is joining the Mamdani administration in New York City., The move signals a sharp political break between Adams-era personnel and the new Mamdani government., The lawsuit against Adams remains active as the aide transitions into a city role."
+    ],
+    body: {
+      whatHappened: "A former aide to ex-New York City Mayor Eric Adams who filed a civil lawsuit against him has accepted a position in the administration of incoming Mayor Zohran Mamdani. The aide's lawsuit against Adams is ongoing. The appointment marks one of the more pointed personnel signals from the Mamdani transition team.",
+      analysis: "The hire carries both political and legal significance. By bringing on a plaintiff in an active suit against his predecessor, Mamdani sends a clear message about the distance his administration intends to keep from Adams and his allies. For the aide, the appointment strengthens their public credibility and institutional footing while the litigation proceeds, though it also raises questions about whether a city salary could complicate settlement dynamics or perceived leverage. Defendants in civil suits often argue that plaintiffs who land favorable outcomes elsewhere face reduced damages calculations, a dynamic that Adams' legal team may attempt to exploit. The Mamdani team likely calculated that the political symbolism of the hire outweighs any legal friction it introduces.",
+      whyItMatters: "The appointment signals that the Mamdani administration is willing to make personnel choices that function as implicit rebukes of Adams. Former Adams allies lose a potential back-channel into the new city government. The aide gains a platform and institutional resources, which could shift the power balance in the ongoing litigation. New York City taxpayers and watchdog groups will watch closely to see whether the hire influences how the city handles any related legal exposure."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "dems-have-made-up-ground-in-nearly-every-election-since-trump-took-office",
     title: "Democrats Have Made Up Ground in Nearly Every Election Since Trump Took Office",
     dek: "A POLITICO analysis finds consistent Democratic overperformance across red and blue districts in every special election since January 2025.",
