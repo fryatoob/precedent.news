@@ -55,6 +55,7 @@ export default async function handler(req, res) {
   article.image = article.image || '';
   article.keyPoints = article.keyPoints || [];
   article.scenarios = article.scenarios || [];
+  article.impact = article.impact || null;
 
   try {
     const { GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO } = process.env;
@@ -145,6 +146,13 @@ function buildArticleString(a) {
     }`)
     .join(',\n');
 
+  const impactStr = a.impact ? `
+    impact: {
+      timeline: "${escape(a.impact.timeline)}",
+      scope: "${escape(a.impact.scope)}",
+      stakes: "${escape(a.impact.stakes)}"
+    },` : '';
+
   return `  {
     id: "${a.id}",
     title: "${escape(a.title)}",
@@ -155,7 +163,7 @@ function buildArticleString(a) {
     readTime: "${a.readTime}",
     featured: ${a.featured},
     developing: ${a.developing},
-    image: "${escape(a.image)}",
+    image: "${escape(a.image)}",${impactStr}
     keyPoints: [
 ${keyPoints}
     ],
