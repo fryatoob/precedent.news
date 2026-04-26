@@ -20,8 +20,7 @@
       ]
     }
   ],
-  "rewrites": [
-    { "source": "/article/:id", "destination": "/api/article?id=:id" },
-    { "source": "/pages/article.html", "destination": "/api/article" }
+ "rewrites": [
+    { "source": "/article/:id", "destination": "/pages/article.html" }
   ]
 }
