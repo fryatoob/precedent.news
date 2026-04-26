@@ -20,6 +20,29 @@
 
 export const articles = [
   {
+    id: "iran-paris-weather-prediction-market-violations",
+    title: "From Iran to Paris Weather: Alleged Prediction Market Violations Start Stacking Up",
+    dek: "]Regulators and frontline Democrats are clashing over jurisdiction as complaints against prediction market platforms multiply.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "5 min read",
+    featured: false,
+    developing: false,
+    image: "https://static.politico.com/6a/91/b4e58f334920ac41b137d78fa60d/prediction-markets-explainer-46186.jpg",
+    keyPoints: [
+
+    ],
+    body: {
+      whatHappened: "Alleged violations by prediction market platforms have begun accumulating, spanning subjects as varied as Iranian political events and Paris weather outcomes. Regulators and lawmakers have not agreed on who holds primary oversight authority. Several frontline Democrats have moved to the forefront of efforts to constrain these companies.",
+      analysis: "Prediction markets occupy an awkward regulatory space, touching on both commodity futures law under the CFTC and potential securities frameworks under the SEC, a gap that companies have historically exploited. The accumulation of alleged violations across unrelated subject matters suggests systemic compliance failures rather than isolated incidents. Jurisdictional ambiguity weakens enforcement because each agency can defer to the other, allowing platforms to operate in a gray zone with limited accountability. Democrats targeting the issue from frontline districts likely see political upside in consumer protection framing, particularly as retail participation in these markets has grown. Without a clear congressional mandate designating a lead regulator, enforcement actions risk being challenged on procedural grounds. The pattern mirrors early regulatory struggles with crypto exchanges before Congress eventually moved toward clearer statutory frameworks.",
+      whyItMatters: "Prediction market platforms face their first serious coordinated regulatory pressure, which could force operational changes or restrict certain contract types. Investors and users on these platforms face uncertainty about the legal standing of existing contracts. A turf war between agencies benefits the platforms in the short term but invites harsher eventual legislation if Congress steps in to resolve the dispute. Frontline Democrats who succeed in leading this charge gain a policy win ahead of election cycles."
+    },
+    scenarios: [
+
+    ]
+  },
+  {
     id: "the-nations-cartoonists-on-the-week-in-politics",
     title: "The Nation's Cartoonists on the Week in Politics",
     dek: "]Political cartoonists from across the spectrum capture the defining moments of the week in Washington and beyond.",
