@@ -1,6 +1,9 @@
 /**
  * main.js
  * Precedent.news — Homepage Script
+ *
+ * Initializes all dynamic sections on the homepage.
+ * Imports rendering functions from render.js.
  */
 
 import { renderHero, renderFeed, renderSection, renderBriefingBar, renderTicker } from './render.js';
@@ -22,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderSection('courts-feed', 'courts', 4);
   renderSection('politics-feed', 'politics', 4);
 
-  // Scroll-triggered reveals for static elements
+  // Scroll-triggered reveals
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
