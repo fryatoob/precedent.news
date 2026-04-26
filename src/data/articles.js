@@ -20,6 +20,29 @@
 
 export const articles = [
   {
+    id: "dirk-kempthorne-former-idaho-governor-interior-secretary-dies",
+    title: "Dirk Kempthorne, Former Idaho Governor and U.S. Interior Secretary, Dies at 74",
+    dek: "]The Republican statesman, who served under President George W. Bush, died after a battle with colon cancer.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "5 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+
+    ],
+    body: {
+      whatHappened: "Dirk Kempthorne, a Republican who served as Idaho governor, U.S. senator, and Secretary of the Interior under President George W. Bush, died at age 74. He had been diagnosed with colon cancer last year. Kempthorne held the Interior post from 2006 to 2009, overseeing federal land and natural resource policy.",
+      analysis: "Kempthorne's career reflected the political trajectory of Western Republicans who built their brands on resource development and limited federal intervention in state land management. As Interior secretary, he faced persistent criticism from environmental groups over decisions affecting endangered species listings and energy extraction on federal lands. His tenure coincided with rising debates over climate policy and public lands use that have only intensified since. Kempthorne also navigated the complex relationship between the federal government and Western states, a tension that remains central to Republican politics in the region. His death removes one of the more prominent figures from the Bush-era Republican establishment in the Mountain West.",
+      whyItMatters: "Kempthorne's passing closes a chapter on a brand of Western Republicanism that emphasized resource development and state authority over federal land management. Conservation advocates who clashed with him during his Interior tenure are unlikely to mourn his policy legacy, while industry groups and Western land-use advocates lose a longtime ally. His career also illustrates how Idaho has evolved from a state that produced prominent moderate Republicans to one now defined by its hard-right faction."
+    },
+    scenarios: [
+
+    ]
+  },
+  {
     id: "iran-ship-seizure",
     title: "The US Navy Seizes an Iranian Cargo Ship in the Gulf. The Legal and Strategic Fallout Is Just Beginning.",
     dek: "The boarding operation marks the first publicly confirmed enforcement action under Trump's stated naval blockade of Iran. But the word blockade carries legal obligations the administration may not intend.",
