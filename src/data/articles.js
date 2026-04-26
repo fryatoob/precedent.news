@@ -12,7 +12,6 @@
  * - readTime:  Estimated read time
  * - featured:  true = hero story
  * - developing: true = show "Developing" badge
- * - image:     URL string for og:image and article header
  * - keyPoints: Array of bullet strings (3-5)
  * - body:      Object with section content
  * - scenarios: Array of scenario objects
@@ -29,7 +28,6 @@ export const articles = [
     readTime: "3 min read",
     featured: false,
     developing: false,
-    image: "",
     keyPoints: [
       "Steve Hilton, a British-born conservative commentator and former Fox News host, is considering a run for governor of California.",
       "Hilton argues that rising homelessness, high costs of living, and chronic mismanagement have made California voters more open to a Republican candidate than at any point in decades.",
@@ -52,7 +50,6 @@ export const articles = [
     readTime: "3 min read",
     featured: false,
     developing: false,
-    image: "",
     keyPoints: [
       "Democrats are targeting FIFA alongside groceries, utilities, and landlords in their emerging cost-of-living messaging strategy.",
       "The 2026 FIFA World Cup, hosted across the United States, Canada, and Mexico, has given lawmakers a concrete and timely hook for affordability arguments.",
@@ -75,7 +72,6 @@ export const articles = [
     readTime: "6 min read",
     featured: false,
     developing: false,
-    image: "",
     keyPoints: [
       "Democrat Chris Pappas has raised more money than each of his Republican competitors in the New Hampshire Senate race.",
       "Pappas holds a larger cash-on-hand balance than his GOP rivals, giving him a structural advantage heading into the campaign.",
@@ -98,7 +94,6 @@ export const articles = [
     readTime: "6 min read",
     featured: false,
     developing: false,
-    image: "",
     keyPoints: [
       "Rep. Andy Barr leads Kentucky Senate GOP primary rivals in cash on hand with nearly $4.2 million.",
       "The fundraising advantage gives Barr a structural edge in paid media and ground operations heading into the primary.",
@@ -121,7 +116,6 @@ export const articles = [
     readTime: "8 min read",
     featured: true,
     developing: false,
-    image: "",
     keyPoints: [
       "US naval forces boarded and seized an Iranian-flagged cargo vessel in the Gulf of Oman, releasing video footage.",
       "President Trump described the seizure as enforcement of a naval blockade — a term with demanding legal meaning under international law.",
@@ -161,7 +155,6 @@ export const articles = [
     readTime: "4 min read",
     featured: false,
     developing: true,
-    image: "",
     keyPoints: [
       "A Kuwaiti court acquitted journalist Ahmed Shihab-Eldin on charges of spreading false information via social media reposts.",
       "The case drew international attention because Shihab-Eldin holds dual US-Kuwaiti citizenship.",
@@ -195,7 +188,6 @@ export const articles = [
     readTime: "6 min read",
     featured: false,
     developing: false,
-    image: "",
     keyPoints: [
       "The DEA finalized a rule reclassifying cannabis from Schedule I to Schedule III under the Controlled Substances Act.",
       "The change does not legalize recreational marijuana at the federal level.",
