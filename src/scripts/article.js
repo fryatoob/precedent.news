@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dateEl.textContent = new Date().toLocaleDateString('en-US', opts);
   }
 
-  // Set og/twitter meta tags dynamically
+  // Set meta tags dynamically
   const params = new URLSearchParams(window.location.search);
   const id = params.get('id');
   if (id) {
