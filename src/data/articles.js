@@ -20,6 +20,33 @@
 
 export const articles = [
   {
+    id: "angie-craig-builds-fundraising-lead-minnesota-senate-primary",
+    title: "Angie Craig Builds Fundraising Lead in Minnesota Senate Primary",
+    dek: "The Democratic congresswoman raised \$2.5 million in the first quarter, pulling ahead of rivals in the race to replace retiring Sen. Tina Smith.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Rep. Angie Craig raised \$2.5 million in the first quarter of the Minnesota Democratic Senate primary., The fundraising total gives Craig a significant financial advantage over other primary competitors., The race is for the seat held by retiring Sen. Tina Smith, making Minnesota a key battleground."
+    ],
+    body: {
+      whatHappened: "Rep. Angie Craig raised \$2.5 million in the first quarter, establishing a fundraising lead in the Minnesota Democratic Senate primary. Craig, who represents Minnesota's second congressional district, is among several candidates competing for the seat being vacated by retiring Sen. Tina Smith. The filing covers the January through March reporting period.",
+      analysis: "Fundraising totals at this stage of a Senate primary serve as a primary signal of institutional support, donor network depth, and organizational capacity. Craig's \$2.5 million haul likely reflects her existing donor infrastructure from multiple House campaigns, giving her a compounding advantage as early money attracts further contributions. In competitive primaries, candidates who establish early financial leads often consolidate endorsements and staff talent, creating barriers to entry for lesser-funded rivals. Minnesota's Senate seat carries national implications, as Democrats seek to defend or expand their Senate majority. A well-funded primary winner enters the general election with name recognition and operational capacity that underfunded nominees typically lack. The size of Craig's war chest also signals to outside groups where to deploy independent expenditures.",
+      whyItMatters: "Craig's fundraising lead strengthens her position as the frontrunner in a primary that will determine the Democratic nominee for a competitive Senate seat. Rival candidates face the difficult task of closing a financial gap while also building voter outreach operations. Minnesota Republicans will watch the primary closely, as a financially weakened Democratic nominee would improve their pickup prospects. For Craig, converting fundraising momentum into a primary win would launch her into a general election with a structural advantage over most Republican challengers."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "sherrod-brown-posts-big-cash-advantage-over-jon-husted",
     title: "Sherrod Brown Posts Big Cash Advantage Over Jon Husted",
     dek: "Brown raised more than \$10.1 million in the first quarter, building a commanding financial lead in the Ohio Senate race.",
