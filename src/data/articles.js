@@ -20,6 +20,33 @@
 
 export const articles = [
   {
+    id: "mark-kelly-cashing-in-trump-seditious-six-attacks",
+    title: "Mark Kelly Keeps Cashing In on Trump's 'Seditious Six' Attacks",
+    dek: "The Arizona senator's fundraising surge from Trump's attacks fuels growing speculation about a 2028 presidential run.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Sen. Mark Kelly has converted Trump's 'Seditious Six' attacks into a substantial fundraising advantage., The fundraising haul is amplifying speculation that Kelly is positioning for a 2028 presidential bid., Kelly joins a small group of Democrats who have turned Trump criticism into a political and financial asset."
+    ],
+    body: {
+      whatHappened: "Sen. Mark Kelly (D-Ariz.) has continued to raise significant campaign funds following President Trump's labeling of him and other Democrats as the 'Seditious Six.' The fundraising performance has drawn attention from party operatives and donors who see Kelly as a potential 2028 presidential contender. Kelly has not publicly confirmed any interest in a presidential run.",
+      analysis: "Trump's attacks on targeted Democrats have repeatedly produced a predictable feedback loop: provocation drives media attention, which drives small-dollar donor activation, which strengthens the attacked politician's national profile. Kelly benefits disproportionately because his biography as a former astronaut and Navy combat veteran insulates him from charges of radicalism, making the 'seditious' label appear especially implausible to persuadable voters. The financial mechanics here are straightforward: email and digital fundraising programs depend on emotional triggers, and a presidential attack from Trump is among the most reliable such triggers available to Democrats. Kelly's Arizona base also gives him credibility in a competitive Sun Belt state that both parties view as central to any 2028 electoral map. The danger for Kelly is that sustained national positioning before 2028 could complicate his standing in Arizona, where independent voters tend to punish politicians who appear too focused on personal advancement. Still, the donor network he builds now converts directly into organizational infrastructure if he does choose to run.",
+      whyItMatters: "Democratic donors hungry for a centrist, military-credentialed candidate in 2028 see Kelly's fundraising as a proof-of-concept for his national viability. Republican strategists lose a degree of control over the 'Seditious Six' narrative if the attacks continue to generate money and visibility for their targets. Arizona Democrats gain a higher-profile senator with more resources, but risk a leadership vacuum if Kelly pivots fully toward a presidential campaign. Voters in competitive states get an early look at a potential Democratic standard-bearer whose pitch centers on biography and moderation rather than ideological positioning."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "senate-democratic-candidates-posting-huge-fundraising-hauls",
     title: "Senate Democratic Candidates Are Posting Huge Fundraising Hauls",
     dek: "James Talarico leads the pack with a \$27 million haul as Democrats flood Senate battlegrounds with cash.",
