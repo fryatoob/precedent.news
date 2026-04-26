@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "he-wants-muslims-out-of-the-us-and-hes-blakemans-opener",
+    title: "Anti-Muslim Activist Tapped as Opening Speaker at Blakeman Event",
+    dek: "Nassau County Executive Bruce Blakeman chose a speaker who has publicly called for removing Muslims from the United States.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Nassau County Executive Bruce Blakeman selected a speaker who advocates expelling Muslims from the U.S. to open a public event., The choice raises questions about the political calculations of an elected official with statewide ambitions in New York., Civil liberties groups and Muslim advocacy organizations have condemned the selection."
+    ],
+    body: {
+      whatHappened: "Nassau County Executive Bruce Blakeman selected an activist who has publicly and repeatedly called for the removal of Muslims from the United States as the opening speaker at a county-affiliated event. The activist has a documented record of anti-Muslim statements across public platforms. The selection drew immediate criticism from civil liberties organizations and elected officials in the region.",
+      analysis: "Blakeman's decision to platform an openly anti-Muslim voice is not incidental. It signals an attempt to consolidate a base that responds to nativist rhetoric, a strategy that carries short-term political rewards in certain Republican primary environments but significant legal and reputational exposure for a county executive. Nassau County has a substantial Muslim population, and government officials who associate with voices calling for religious-based expulsion invite scrutiny under the First and Fourteenth Amendments, not because the speech itself is unlawful, but because government endorsement of discriminatory viewpoints can expose public bodies to civil rights challenges. The move also tests how far Republican officials in blue-leaning states can drift toward ethnonationalist positioning before institutional backlash becomes a binding constraint. Blakeman has shown a pattern of provocative cultural-war positioning, suggesting this is a deliberate brand choice rather than an oversight.",
+      whyItMatters: "Muslim residents of Nassau County face a direct signal from their county executive that their exclusion from the country is a welcome topic on government-adjacent platforms. Advocacy groups gain a concrete and high-profile rallying point that can drive fundraising and voter mobilization. Blakeman consolidates support among a nativist faction of the Republican base but narrows his coalition for any future run in a general election. The episode tests whether New York Republicans face meaningful accountability for platforming explicitly discriminatory voices."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "grindr-is-on-the-political-rise",
     title: "Grindr Expands Political Presence Under Trump's Second Term",
     dek: "The LGBTQ+ dating app is building out its lobbying and advocacy footprint as federal policy shifts threaten its user base.",
