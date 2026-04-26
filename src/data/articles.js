@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "rival-pacs-line-up-to-target-gop-cosponsors-of-immigration-bill",
+    title: "Rival PACs Line Up to Target GOP Cosponsors of Immigration Bill",
+    dek: "The Dignity Act, a bipartisan immigration reform bill, has ignited a conservative backlash with outside groups threatening Republican supporters.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "https://static.politico.com/7a/dc/3ff1a8a04647a14339f74901e0ae/immigration-venezuelan-doctors-1-372.jpg",
+    keyPoints: [
+    "Multiple right-wing PACs are organizing campaign efforts against Republican lawmakers who cosponsor the Dignity Act., The Dignity Act proposes a bipartisan path to immigration reform, drawing support from some GOP members and fierce opposition from others., The political pressure campaign signals that immigration remains one of the sharpest fault lines inside the Republican Party."
+    ],
+    body: {
+      whatHappened: "Several conservative PACs have announced plans to run opposition campaigns against Republican cosponsors of the Dignity Act, a bipartisan immigration reform bill. The groups argue the bill amounts to amnesty and violates the party's hardline stance on border security. The organizing effort reflects a broader revolt on the political right against any legislation perceived as softening immigration enforcement.",
+      analysis: "The PAC pressure campaign follows a well-worn playbook in primary politics: use outside spending to shift the cost-benefit calculus for incumbents who stray from base preferences. Republican cosponsors of the Dignity Act face a classic collective action problem. Individual members may privately support compromise but cannot afford to be the visible target of a primary challenge funded by ideologically motivated outside groups. The Dignity Act itself attempts to thread a narrow needle by pairing enforcement provisions with legal status pathways, a structure designed to attract centrist Republicans but one that provides little cover against bad-faith characterizations of amnesty. PAC involvement raises the electoral stakes considerably because even the threat of a well-funded primary challenger can suppress cosponsor recruitment and force existing supporters to publicly distance themselves. The dynamic illustrates how outside money can effectively veto legislative coalition-building before a bill ever reaches the floor.",
+      whyItMatters: "Republican cosponsors face direct electoral risk, particularly those in competitive or right-leaning districts where primary turnout skews toward base voters. Immigrant communities and advocacy groups that backed the Dignity Act stand to lose a rare legislative vehicle that included legal status provisions. Democrats who co-authored the bill may gain a short-term messaging advantage but lose a functional bipartisan partner if GOP support collapses. The episode reinforces that immigration reform legislation faces structural obstacles that go beyond congressional vote counts."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "former-aide-suing-eric-adams-joins-mamdani-administration",
     title: "Former Aide Suing Eric Adams Joins Mamdani Administration",
     dek: "A former Adams staffer who filed a lawsuit against the ex-mayor is taking a role in the incoming Mamdani city government.",
