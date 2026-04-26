@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "gop-virginia-gerrymandering-loss-finger-pointing",
+    title: "Virginia Republicans Point Fingers After Gerrymandering Loss",
+    dek: "GOP insiders fault the party for underinvesting in the redistricting fight and are now leaning on Florida to recover lost ground.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "https://static.politico.com/61/6b/9bf0614d4ffe8bfdab86960268a2/election-2-26-redistricting-virginia-88177.jpg",
+    keyPoints: [
+    "Virginia Republicans say the party failed to spend adequately to defend favorable district maps in the state., GOP strategists are now pressuring Florida Republicans to redraw congressional maps to offset Virginia losses., The redistricting defeat could shift the House majority calculus ahead of the next election cycle."
+    ],
+    body: {
+      whatHappened: "Virginia Republicans lost a redistricting fight they believe was winnable, and party members are now publicly blaming leadership for failing to commit sufficient resources to the effort. Frustrated operatives say the spending gap allowed Democrats to secure more favorable maps. The GOP is now pressing Florida to redraw its congressional districts to compensate for the lost advantage.",
+      analysis: "Redistricting battles are essentially asset allocation contests, and Virginia Republicans are arguing their side showed up underfunded to a high-stakes auction. When one party declines to spend aggressively on map litigation or legislative lobbying, it cedes a structural advantage that compounds across multiple election cycles, not just one. The push to engage Florida as a counterweight reflects a broader Republican strategy of treating redistricting as a national portfolio rather than a state-by-state fight, which is a rational response given that House majority control often turns on a handful of seats. Florida's Republican-controlled legislature has the legal authority to initiate a new round of redistricting, though doing so invites litigation and could generate a backlash that energizes Democratic donors and organizers. The internal blame game in Virginia also signals a fracture between national party committees and state-level actors over who bears responsibility for funding these fights. If Republicans succeed in pressuring Florida to act, they may neutralize the Virginia loss, but they risk extending a cycle of retaliatory redistricting that courts have grown increasingly skeptical of.",
+      whyItMatters: "A less favorable Virginia map directly reduces Republican seat opportunities in a state where the party has been competitive in federal races. If Florida redraws its maps aggressively, Democrats there face a harder path to holding or gaining congressional seats, shifting the House battlefield. Voters in both states could see their representation restructured not by electoral outcomes but by partisan legislative decisions made under political pressure. National Democratic groups will likely respond with litigation and increased fundraising, raising the cost of the Republican counterstrategy."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "virginia-voters-dems-big-win-gerrymandering-wars",
     title: "Virginia Voters Give Democrats a Big Win in the Gerrymandering Wars",
     dek: "A new court-ordered map in Virginia could erase Republican congressional gains sparked by Texas redistricting last summer.",
