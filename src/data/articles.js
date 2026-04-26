@@ -222,6 +222,7 @@ export const articles = [
     section: "law",
     date: "April 23, 2026",
     readTime: "8 min read",
+    image: "https://static.politico.com/95/a2/5af4212547925e0bacb1a89c4c57/GettyImages-123456.jpg",
     featured: true,
     developing: false,
     keyPoints: [
