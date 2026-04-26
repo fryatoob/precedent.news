@@ -11,8 +11,6 @@ export default async function handler(req, res) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
-  // Parse the article data
-  // Handles raw JSON strings, markdown-wrapped JSON, and pre-parsed objects
   let article = req.body;
 
   if (typeof article === 'string') {
@@ -54,6 +52,7 @@ export default async function handler(req, res) {
   article.featured = article.featured || false;
   article.developing = article.developing || false;
   article.readTime = article.readTime || '5 min read';
+  article.image = article.image || '';
   article.keyPoints = article.keyPoints || [];
   article.scenarios = article.scenarios || [];
 
@@ -156,6 +155,7 @@ function buildArticleString(a) {
     readTime: "${a.readTime}",
     featured: ${a.featured},
     developing: ${a.developing},
+    image: "${escape(a.image)}",
     keyPoints: [
 ${keyPoints}
     ],
