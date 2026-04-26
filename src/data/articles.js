@@ -20,6 +20,33 @@
 
 export const articles = [
   {
+    id: "rick-jackson-cannonballed-into-the-governor-race-ripple-effects-across-georgia",
+    title: "Rick Jackson Cannonballs Into Georgia Governor Race, Rattling Republicans Statewide",
+    dek: "His air war dominance is draining oxygen and donor attention from Republican candidates in races across Georgia.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Rick Jackson entered the Georgia governor race and quickly dominated television and digital advertising across the state., His rapid rise is generating frustration among Republican candidates in down-ballot and statewide races who say his spending crowds out their messaging., The spillover effects raise questions about donor bandwidth and voter attention heading into primary season."
+    ],
+    body: {
+      whatHappened: "Rick Jackson entered the Georgia governor race and swiftly established a commanding presence on the airwaves, outspending rivals and drawing statewide attention. His aggressive ad campaign is generating friction among fellow Republicans who say his dominance is disrupting their own races. The ripple effects are being felt across multiple competitive contests in Georgia.",
+      analysis: "When a well-funded candidate floods a media market, the externalities extend far beyond the top of the ticket. Advertising inventory tightens, costs rise for other campaigns, and voters become saturated with a single candidate's framing before down-ballot candidates can establish their own identities. Jackson's rapid ascent suggests either significant self-funding capacity or an early consolidation of major donor networks, both of which structurally disadvantage competitors who rely on incremental fundraising. In primary environments, name recognition built through paid media creates compounding advantages: polling improves, earned media follows, and donors gravitate toward perceived frontrunners. The frustration among Georgia Republicans reflects a rational collective action problem where individual self-interest in winning the governorship imposes costs on the broader party ecosystem. If Jackson's spending compresses the competitive field prematurely, it could reduce intraparty accountability while also shaping which candidates survive to compete in November.",
+      whyItMatters: "Republican candidates in Georgia legislative and statewide races stand to lose donor attention and media space to Jackson's operation, potentially starving their campaigns of early momentum. Voters in media markets saturated by governor's race advertising may tune out lower-profile races, hurting candidates who lack independent name recognition. Jackson benefits from a self-reinforcing cycle where early spending builds the polling leads that justify further spending. Georgia Democrats could gain if Republican down-ballot candidates are weakened by internal resource competition before the general election."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "albanys-influence-wars",
     title: "Albany's Influence Wars",
     dek: "Competing lobbying interests are reshaping the balance of power in New York's state capital.",
