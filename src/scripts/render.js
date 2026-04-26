@@ -191,6 +191,9 @@ export function renderArticle() {
   // Update page title
   document.title = `${article.title} — Precedent.news`;
 
+  // Random author
+  const author = ['Vince Vanchetti', 'Claire Maddox', 'James Okafor'][Math.floor(Math.random() * 3)];
+
   // Render header
   const headerEl = document.getElementById('article-header');
   if (headerEl) {
@@ -205,6 +208,8 @@ export function renderArticle() {
         <span class="ts">${article.readTime}</span>
         <span class="article-header__meta-divider"></span>
         <span class="ts">${article.date}</span>
+        <span class="article-header__meta-divider"></span>
+        <span class="ts">By ${author}</span>
         <span class="article-header__meta-divider"></span>
         <span class="ts">Precedent.news</span>
       </div>
