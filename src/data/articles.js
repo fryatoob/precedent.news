@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "forced-out-of-the-military-and-into-the-redistricting-wars",
+    title: "Forced Out of the Military and Into the Redistricting Wars",
+    dek: "Bree Fram's Virginia congressional campaign depends heavily on whether voters approve a redistricting referendum that could reshape her district's political landscape.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Bree Fram, a transgender veteran and rocket scientist, was discharged from the military under Trump administration policy and is now running for Congress in Virginia., A Virginia redistricting referendum could redraw district lines in ways that significantly affect the competitiveness of her race., The outcome of the referendum may determine whether Fram has a viable path to victory in what is currently considered a long-shot bid."
+    ],
+    body: {
+      whatHappened: "Bree Fram, a transgender rocket scientist and military veteran discharged under Trump administration policy, is running for Congress in Virginia. Her campaign faces steep odds, but a pending state redistricting referendum could redraw district boundaries in ways that alter the race's competitiveness. The referendum puts the power to reshape Virginia's congressional map before voters rather than the Republican-controlled legislature.",
+      analysis: "Redistricting referendums shift map-drawing authority from partisan legislatures to independent or citizen commissions, a structural change that historically produces more competitive districts. For candidates like Fram who lack institutional party backing, fairer maps lower the baseline partisan advantage that incumbents and party-favored nominees typically enjoy. Virginia's political geography clusters Democratic voters in urban corridors, meaning current maps likely dilute their influence in surrounding suburban and exurban districts. If the referendum passes and produces a less gerrymandered map, swing districts become more numerous, expanding the universe of seats where a candidate's personal narrative and crossover appeal can overcome party registration gaps. Fram's profile, a decorated veteran running on competence and personal adversity, is precisely the kind of candidate who performs best when district composition is heterogeneous rather than heavily sorted. The referendum therefore functions less as a legal question and more as a structural prerequisite for her campaign's viability.",
+      whyItMatters: "Republican incumbents and party organizations in Virginia stand to lose safe seats if independent redistricting produces more competitive maps. Democratic candidates in previously unwinnable districts, including Fram, gain measurable electoral opportunities. Transgender candidates specifically benefit when districts are drawn on population rather than partisan criteria, because their base of support skews toward younger urban voters who are often packed into single districts under partisan maps. Voters who support competitive elections broadly have a direct stake in the referendum's outcome regardless of their views on any individual candidate."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "poll-trump-immigration-message-changed-voters-opinions-have-not",
     title: "Poll: Half of Americans Call Trump Mass Deportation Campaign Too Aggressive",
     dek: "A new POLITICO poll finds public opposition to Trump's immigration crackdown runs deep, including among a quarter of his own 2024 voters.",
