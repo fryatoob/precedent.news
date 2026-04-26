@@ -28,6 +28,16 @@ function categoryColor(category) {
   return map[category] || 'var(--orange)';
 }
 
+function stakesColor(stakes) {
+  const map = {
+    'Low': '#717170',
+    'Medium': '#E8500A',
+    'High': '#B83D07',
+    'Critical': '#080807'
+  };
+  return map[stakes] || '#717170';
+}
+
 
 /* ----------------------------------------------------------
    Card templates
@@ -235,7 +245,33 @@ export function renderArticle() {
       </div>
     `).join('') || '';
 
+    const impactBlock = article.impact ? `
+      <div style="
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--s4);
+        margin-bottom: var(--s8);
+        border: 2px solid var(--black);
+        padding: var(--s5);
+      ">
+        <div style="text-align: center;">
+          <div style="font-family:var(--font-ui);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--gray-50);margin-bottom:var(--s2);">Timeline</div>
+          <div style="font-family:var(--font-ui);font-size:12px;font-weight:500;color:var(--black);">${article.impact.timeline}</div>
+        </div>
+        <div style="text-align: center; border-left: 1px solid var(--gray-10); border-right: 1px solid var(--gray-10);">
+          <div style="font-family:var(--font-ui);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--gray-50);margin-bottom:var(--s2);">Scope</div>
+          <div style="font-family:var(--font-ui);font-size:12px;font-weight:500;color:var(--black);">${article.impact.scope}</div>
+        </div>
+        <div style="text-align: center;">
+          <div style="font-family:var(--font-ui);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--gray-50);margin-bottom:var(--s2);">Stakes</div>
+          <div style="font-family:var(--font-ui);font-size:12px;font-weight:500;color:${stakesColor(article.impact.stakes)};">${article.impact.stakes}</div>
+        </div>
+      </div>
+    ` : '';
+
     bodyEl.innerHTML = `
+      ${impactBlock}
+
       ${article.keyPoints?.length ? `
         <div class="key-points">
           <div class="key-points__title">Key Points</div>
