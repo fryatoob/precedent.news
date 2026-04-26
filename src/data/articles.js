@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "poll-trump-immigration-message-changed-voters-opinions-have-not",
+    title: "Poll: Half of Americans Call Trump Mass Deportation Campaign Too Aggressive",
+    dek: "A new POLITICO poll finds public opposition to Trump's immigration crackdown runs deep, including among a quarter of his own 2024 voters.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Fifty percent of Americans said Trump's mass deportation campaign is too aggressive, according to a new POLITICO poll., One quarter of Trump's own 2024 voters agreed the deportation effort has gone too far., The findings suggest the administration's shift in immigration messaging has not moved public opinion in its favor."
+    ],
+    body: {
+      whatHappened: "A new POLITICO poll finds that half of Americans believe Trump's mass deportation campaign is too aggressive. The skepticism extends to the president's own coalition, with one in four Trump 2024 voters sharing that view. The results come as the administration has adjusted its public messaging around immigration enforcement.",
+      analysis: "The poll data exposes a tension at the core of Trump's second-term immigration strategy. Winning coalitions rarely require unanimous support, but erosion among a quarter of core supporters signals meaningful political risk, particularly in midterm environments where base turnout is decisive. The administration has framed mass deportations through shifting rationales, including public safety, economic competition, and national sovereignty, yet none of those frames appears to have expanded the policy's appeal beyond its original ceiling. This pattern is consistent with research showing that policy attitudes on immigration are sticky and resistant to elite messaging once formed. The legal apparatus underpinning the deportation campaign, including expanded use of expedited removal and third-country deportation agreements, has also drawn sustained court challenges, which may reinforce public unease by keeping high-profile cases in the news cycle. Historically, enforcement-heavy immigration policies generate short-term political energy but face diminishing returns as human-interest stories accumulate.",
+      whyItMatters: "Republican strategists face a narrowing path if the deportation campaign continues to alienate a measurable share of Trump voters ahead of the 2026 midterms. Immigrant communities and civil liberties advocates gain political credibility as polling validates their claims of overreach. Democrats, who have struggled to unify around an immigration counter-message, now have independent data to anchor their criticism. The White House faces pressure to either moderate enforcement visibly or double down and accept elevated political costs."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "why-steve-hilton-thinks-he-can-turn-california-red",
     title: "Why Steve Hilton Thinks He Can Turn California Red",
     dek: "The former Fox News host is betting that voter frustration with progressive governance can flip the nation's bluest large state.",
