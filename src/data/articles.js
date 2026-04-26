@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "tammy-haddad-barbra-streisand-trump-dc-alist-weekend",
+    title: "Tammy Haddad on Barbra Streisand, Trump and DC's A-List Weekend",
+    dek: "Washington power broker Tammy Haddad navigates the intersection of celebrity culture and political influence in the capital.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Tammy Haddad remains a central figure connecting Hollywood celebrities and Washington political insiders, Barbra Streisand's relationship with Democratic politics continues to draw attention amid the Trump era, DC social circuits reflect shifting alliances and power dynamics in the current political climate"
+    ],
+    body: {
+      whatHappened: "Tammy Haddad, a prominent Washington media consultant and event organizer, discussed the overlap of celebrity influence and political power in Washington. Her comments touched on Barbra Streisand's continued engagement with Democratic circles and the social landscape of the capital during the Trump era. Haddad has long served as a connector between entertainment figures and political power brokers in Washington.",
+      analysis: "Washington's social infrastructure has historically functioned as an informal lobbying mechanism, where access to influential figures carries tangible political value. Haddad's role as a convener reflects how soft power operates at the margins of formal policy processes, shaping relationships that later influence decisions. Celebrity alignment with political figures such as Streisand signals donor network activation and public opinion framing rather than direct policy input. The Trump era has sharpened partisan sorting even within social settings, making cross-aisle gatherings rarer and more strategically significant. Events that bring together media, entertainment, and political figures serve as temperature gauges for elite consensus building. The willingness of Hollywood figures to engage with Washington signals continued interest in cultural and regulatory issues affecting the entertainment industry.",
+      whyItMatters: "Washington's social elite use gatherings to build coalitions that precede formal political action, meaning these networks carry real influence over fundraising and legislative priorities. Democratic-aligned celebrities such as Streisand provide both financial resources and cultural legitimacy to political figures who court them. Political operatives who control access to these networks, as Haddad does, hold leverage over both media coverage and donor relations. Republicans risk ceding cultural narrative space if Hollywood remains uniformly aligned with Democratic causes."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "he-wants-muslims-out-of-the-us-and-hes-blakemans-opener",
     title: "Anti-Muslim Activist Tapped as Opening Speaker at Blakeman Event",
     dek: "Nassau County Executive Bruce Blakeman chose a speaker who has publicly called for removing Muslims from the United States.",
