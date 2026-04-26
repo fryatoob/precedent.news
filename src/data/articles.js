@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "why-steve-hilton-thinks-he-can-turn-california-red",
+    title: "Why Steve Hilton Thinks He Can Turn California Red",
+    dek: "The former Fox News host is betting that voter frustration with progressive governance can flip the nation's bluest large state.",
+    category: "Politics",
+    section: "politics",
+    date: "July 25, 2025",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Steve Hilton, a British-born conservative commentator and former Fox News host, is considering a run for governor of California., Hilton argues that rising homelessness, high costs of living, and chronic mismanagement have made California voters more open to a Republican candidate than at any point in decades., California has not elected a Republican governor since Arnold Schwarzenegger won re-election in 2006, making any GOP path to victory an uphill structural challenge."
+    ],
+    body: {
+      whatHappened: "Steve Hilton, a British-born conservative strategist and former Fox News host, has signaled interest in running for governor of California, arguing the state is ripe for a Republican turnaround. Hilton has promoted his case through media appearances and online content, pointing to voter dissatisfaction with homelessness, crime, and the high cost of living under Democratic leadership. No formal campaign announcement has been made.",
+      analysis: "Hilton's theory of the case rests on the assumption that policy failure, rather than partisan identity, now drives California voter behavior. Polling has shown modest Republican gains among Latino and working-class voters in the state, a trend that accelerated during the 2024 cycle when Donald Trump outperformed prior GOP nominees in several Southern California counties. However, California's registered Democratic voter advantage exceeds five million, and statewide Republicans have repeatedly failed to recruit candidates capable of consolidating that latent discontent into a winning coalition. Hilton's profile as a media figure rather than an elected official cuts both ways: he carries no legislative baggage but also lacks a donor network and ground infrastructure that a serious statewide campaign requires. The 2026 primary field is expected to be crowded, and California's top-two primary system means a fractured GOP vote could produce a general election matchup between two Democrats, rendering Hilton's candidacy irrelevant before November.",
+      whyItMatters: "A credible Republican gubernatorial campaign in California would force Democrats to spend resources defending territory they have long taken for granted. Business groups frustrated by regulation and taxation could provide Hilton with an unusual funding base if he enters the race formally. Conversely, a poorly organized campaign risks reinforcing the narrative that the California GOP cannot field serious candidates, further demoralizing the state party ahead of future cycles."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "democrats-fifa-affordability-cost-of-living",
     title: "Democrats Target FIFA as Their New Affordability Villain",
     dek: "Congressional Democrats are folding FIFA's ticket and hospitality pricing into a broader cost-of-living campaign ahead of the 2026 World Cup.",
