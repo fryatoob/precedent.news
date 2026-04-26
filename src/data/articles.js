@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "trumps-pick-to-replace-stefanik",
+    title: "Trump's Pick to Replace Stefanik in Congress",
+    dek: "President Trump has selected a candidate to fill the House seat vacated by Elise Stefanik following her confirmation as UN Ambassador.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Trump has named his preferred candidate to contest the special election for New York's 21st Congressional District, The seat opened after Elise Stefanik resigned to serve as U.S. Ambassador to the United Nations, The special election will test Republican strength in a district Trump has carried by wide margins"
+    ],
+    body: {
+      whatHappened: "President Trump announced his pick to fill the House seat left vacant by Elise Stefanik after she was confirmed as U.S. Ambassador to the United Nations. Stefanik represented New York's 21st Congressional District for over a decade before departing for the diplomatic post. A special election will determine her successor.",
+      analysis: "Trump's endorsement in a special election carries significant weight, historically boosting primary turnout and donor enthusiasm for the chosen candidate. New York's 21st District leans heavily Republican, making the general election less competitive than the process of consolidating party support behind a single nominee. The seat holds symbolic importance for House Republicans, whose slim majority makes every vacancy a potential vulnerability. A Trump-backed candidate who wins decisively would reinforce the former president's continued grip on candidate recruitment within the House Republican conference. Conversely, any stumble in a safe district would invite questions about the durability of his political influence heading into the next election cycle.",
+      whyItMatters: "House Republicans hold a narrow majority, so the vacancy creates short-term procedural risk on close votes until the seat is filled. A swift special election benefits Republicans by limiting the window of exposure. Democratic outside groups may invest in the race to test Trump's endorsement strength even in unfavorable terrain. Local New York Republicans who back a candidate other than Trump's pick risk losing access and support from the national party apparatus."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "dems-brace-for-close-finish-on-virginia-redistricting-effort",
     title: "Democrats Brace for Close Finish on Virginia Redistricting Effort",
     dek: "A successful redistricting push could give Democrats a 10-1 House seat advantage in Virginia and a net gain of up to four seats.",
