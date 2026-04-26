@@ -20,6 +20,29 @@
 
 export const articles = [
   {
+    id: "the-nations-cartoonists-on-the-week-in-politics",
+    title: "The Nation's Cartoonists on the Week in Politics",
+    dek: "]Political cartoonists from across the spectrum capture the defining moments of the week in Washington and beyond.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "5 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+
+    ],
+    body: {
+      whatHappened: "Political cartoonists from around the country submitted illustrations this week capturing major political events, controversies and personalities. The collection, edited by Politico's Matt Wuerker, pulls from artists representing liberal, conservative and centrist perspectives. The roundup reflects the dominant political stories and public figures that defined the news cycle.",
+      analysis: "Editorial cartooning occupies a distinct role in American political discourse, functioning simultaneously as journalism, art and advocacy. The format compresses complex policy arguments into single images, forcing artists to identify the sharpest angle on any given controversy. Historically, cartoons have shaped public perception of political figures in ways that straight news coverage cannot, leveraging exaggeration and symbolism to cut through information saturation. The inclusion of cartoonists across the political spectrum signals an editorial commitment to ideological balance, though the selection process itself inevitably reflects editorial judgment. Aggregated cartoon roundups also function as a barometer of which stories dominated the national conversation during any given week. The medium remains one of the few forms of political commentary with constitutional protections rooted directly in landmark Supreme Court precedent.",
+      whyItMatters: "Readers across the political spectrum engage with cartoon commentary in ways that differ from traditional news consumption, often sharing images that confirm existing viewpoints. Politicians and their communications teams monitor editorial cartoon coverage as a gauge of how their public image is being shaped. Cartoonists themselves wield meaningful soft power, and sustained satirical attention on a political figure can cement negative narratives that persist beyond the news cycle. The weekly format ensures ongoing accountability for public figures regardless of the dominant news story."
+    },
+    scenarios: [
+
+    ]
+  },
+  {
     id: "dirk-kempthorne-former-idaho-governor-interior-secretary-dies",
     title: "Dirk Kempthorne, Former Idaho Governor and U.S. Interior Secretary, Dies at 74",
     dek: "]The Republican statesman, who served under President George W. Bush, died after a battle with colon cancer.",
