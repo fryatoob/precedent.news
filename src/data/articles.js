@@ -20,6 +20,33 @@
 
 export const articles = [
   {
+    id: "senate-democratic-candidates-posting-huge-fundraising-hauls",
+    title: "Senate Democratic Candidates Are Posting Huge Fundraising Hauls",
+    dek: "James Talarico leads the pack with a \$27 million haul as Democrats flood Senate battlegrounds with cash.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "James Talarico raised \$27 million, the top figure among Senate Democratic candidates this cycle., Multiple Democratic Senate candidates are reporting strong fundraising numbers ahead of the 2026 midterms., The hauls signal significant donor enthusiasm for Democratic efforts to contest or flip Senate seats."
+    ],
+    body: {
+      whatHappened: "Senate Democratic candidates reported strong fundraising figures in the latest disclosure period, with Texas candidate James Talarico leading at \$27 million raised. The numbers reflect broad donor engagement across multiple competitive Senate races. Democrats are targeting several seats as they seek to shift the chamber's balance of power in the 2026 midterms.",
+      analysis: "Large fundraising totals at this stage of a cycle carry real strategic weight. They signal candidate viability to party committees, which then use the data to decide where to direct independent expenditures. Talarico's \$27 million in Texas is particularly notable because the state has long been considered structurally difficult for Democrats at the statewide level, and that sum suggests donors believe a genuine contest is possible. Across the broader map, coordinated fundraising strength forces Republican incumbents and candidates to spend earlier and more defensively, which can constrain their own strategic flexibility. Money also buys organizational infrastructure, including field staff and data operations, that compounds in value as election day approaches. The scale of these hauls suggests outside Democratic groups will feel more confident co-investing in these races.",
+      whyItMatters: "Democratic donors and allied outside groups gain leverage and data to make earlier, larger commitments to competitive Senate races. Republican incumbents facing well-funded challengers must divert resources from offensive opportunities to defensive ones. A strong fundraising environment for Democrats increases the probability that the 2026 Senate map becomes genuinely competitive rather than structurally favorable to Republicans. Voters in states like Texas could see unprecedented levels of campaign advertising and ground activity as a result."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "rick-jackson-cannonballed-into-the-governor-race-ripple-effects-across-georgia",
     title: "Rick Jackson Cannonballs Into Georgia Governor Race, Rattling Republicans Statewide",
     dek: "His air war dominance is draining oxygen and donor attention from Republican candidates in races across Georgia.",
