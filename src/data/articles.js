@@ -12,6 +12,7 @@
  * - readTime:  Estimated read time
  * - featured:  true = hero story
  * - developing: true = show "Developing" badge
+ * - image:     URL string for og:image and article header
  * - keyPoints: Array of bullet strings (3-5)
  * - body:      Object with section content
  * - scenarios: Array of scenario objects
@@ -30,20 +31,16 @@ export const articles = [
     developing: false,
     image: "",
     keyPoints: [
-    "Steve Hilton, a British-born conservative commentator and former Fox News host, is considering a run for governor of California., Hilton argues that rising homelessness, high costs of living, and chronic mismanagement have made California voters more open to a Republican candidate than at any point in decades., California has not elected a Republican governor since Arnold Schwarzenegger won re-election in 2006, making any GOP path to victory an uphill structural challenge."
+      "Steve Hilton, a British-born conservative commentator and former Fox News host, is considering a run for governor of California.",
+      "Hilton argues that rising homelessness, high costs of living, and chronic mismanagement have made California voters more open to a Republican candidate than at any point in decades.",
+      "California has not elected a Republican governor since Arnold Schwarzenegger won re-election in 2006, making any GOP path to victory an uphill structural challenge."
     ],
     body: {
       whatHappened: "Steve Hilton, a British-born conservative strategist and former Fox News host, has signaled interest in running for governor of California, arguing the state is ripe for a Republican turnaround. Hilton has promoted his case through media appearances and online content, pointing to voter dissatisfaction with homelessness, crime, and the high cost of living under Democratic leadership. No formal campaign announcement has been made.",
       analysis: "Hilton's theory of the case rests on the assumption that policy failure, rather than partisan identity, now drives California voter behavior. Polling has shown modest Republican gains among Latino and working-class voters in the state, a trend that accelerated during the 2024 cycle when Donald Trump outperformed prior GOP nominees in several Southern California counties. However, California's registered Democratic voter advantage exceeds five million, and statewide Republicans have repeatedly failed to recruit candidates capable of consolidating that latent discontent into a winning coalition. Hilton's profile as a media figure rather than an elected official cuts both ways: he carries no legislative baggage but also lacks a donor network and ground infrastructure that a serious statewide campaign requires. The 2026 primary field is expected to be crowded, and California's top-two primary system means a fractured GOP vote could produce a general election matchup between two Democrats, rendering Hilton's candidacy irrelevant before November.",
       whyItMatters: "A credible Republican gubernatorial campaign in California would force Democrats to spend resources defending territory they have long taken for granted. Business groups frustrated by regulation and taxation could provide Hilton with an unusual funding base if he enters the race formally. Conversely, a poorly organized campaign risks reinforcing the narrative that the California GOP cannot field serious candidates, further demoralizing the state party ahead of future cycles."
     },
-    scenarios: [
-    {
-      type: "",
-      label: "",
-      body: ""
-    }
-    ]
+    scenarios: []
   },
   {
     id: "democrats-fifa-affordability-cost-of-living",
@@ -55,21 +52,18 @@ export const articles = [
     readTime: "3 min read",
     featured: false,
     developing: false,
+    image: "",
     keyPoints: [
-    "Democrats are targeting FIFA alongside groceries, utilities, and landlords in their emerging cost-of-living messaging strategy., The 2026 FIFA World Cup, hosted across the United States, Canada, and Mexico, has given lawmakers a concrete and timely hook for affordability arguments., Progressive and moderate Democrats alike see FIFA pricing practices as a politically safe target that resonates with working-class voters."
+      "Democrats are targeting FIFA alongside groceries, utilities, and landlords in their emerging cost-of-living messaging strategy.",
+      "The 2026 FIFA World Cup, hosted across the United States, Canada, and Mexico, has given lawmakers a concrete and timely hook for affordability arguments.",
+      "Progressive and moderate Democrats alike see FIFA pricing practices as a politically safe target that resonates with working-class voters."
     ],
     body: {
       whatHappened: "Democratic lawmakers and strategists are incorporating FIFA into their cost-of-living messaging, framing the world soccer governing body as another corporate actor squeezing American consumers. The push comes ahead of the 2026 FIFA World Cup, which will be hosted in part by American cities. Complaints center on ticket prices, hospitality packages, and ancillary costs that critics say put the tournament out of reach for ordinary fans.",
       analysis: "Democrats are broadening their affordability coalition by adding a culturally resonant target to a list that already includes supermarkets, energy companies, and landlords. The FIFA angle offers a rare opportunity to criticize a foreign-headquartered organization on domestic consumer grounds without triggering traditional free-trade sensitivities. FIFA operates as a nonprofit under Swiss law but generates billions in commercial revenue, a structure that gives politicians room to argue that consumer protections and antitrust scrutiny should apply to its U.S. market activities. The political mechanics are straightforward: attaching a globally recognized villain to a price-gouging narrative reinforces a populist economic frame that party strategists believe drives turnout among lower- and middle-income voters. Whether lawmakers pursue actual legislation, such as ticketing transparency requirements or antitrust referrals, or keep the campaign rhetorical remains the central unresolved question.",
       whyItMatters: "Fans in host cities including New York, Los Angeles, Dallas, and Miami face a direct cost impact if ticket and ancillary pricing remains at current levels. Local small businesses that expected a tourism windfall could find themselves undercut if high prices suppress attendance or fan spending. Democrats in competitive suburban districts gain a low-risk populist message that does not require a floor vote or committee action to land with voters. FIFA and its commercial partners, including sponsors and broadcasters, face reputational pressure that could complicate negotiations over future U.S. hosting rights."
     },
-    scenarios: [
-    {
-      type: "",
-      label: "",
-      body: ""
-    }
-    ]
+    scenarios: []
   },
   {
     id: "pappas-holds-cash-advantage-over-gop-rivals-new-hampshire",
@@ -81,47 +75,41 @@ export const articles = [
     readTime: "6 min read",
     featured: false,
     developing: false,
+    image: "",
     keyPoints: [
-    "Democrat Chris Pappas has raised more money than each of his Republican competitors in the New Hampshire Senate race., Pappas holds a larger cash-on-hand balance than his GOP rivals, giving him a structural advantage heading into the campaign., The fundraising gap signals differing levels of donor enthusiasm and organizational strength between the two parties in New Hampshire."
+      "Democrat Chris Pappas has raised more money than each of his Republican competitors in the New Hampshire Senate race.",
+      "Pappas holds a larger cash-on-hand balance than his GOP rivals, giving him a structural advantage heading into the campaign.",
+      "The fundraising gap signals differing levels of donor enthusiasm and organizational strength between the two parties in New Hampshire."
     ],
     body: {
       whatHappened: "Democrat Chris Pappas has out-raised his Republican competitors in the New Hampshire Senate race and holds more cash on hand than any of his GOP rivals. The fundraising figures reflect the most recent campaign finance reporting period. Pappas is running for the Senate seat in a state that has trended competitive in recent election cycles.",
       analysis: "A cash advantage at this stage of a Senate race carries compounding benefits. Candidates with larger war chests can lock in advertising rates earlier, build ground operations sooner, and deter potential donors from giving to opponents. Republican rivals who trail in fundraising face a harder path to viability, as donor networks often consolidate around candidates who demonstrate financial momentum. In competitive states like New Hampshire, early money also influences how party committees and outside groups allocate resources, creating a feedback loop that can widen initial gaps. The Democratic advantage here may reflect stronger small-dollar donor infrastructure built during previous Pappas congressional campaigns.",
       whyItMatters: "A sustained cash gap benefits Pappas by allowing earlier and heavier investment in voter contact and media. Republican candidates who cannot close the fundraising deficit risk being passed over by national party committees focused on winnable races. New Hampshire is a perennial battleground, and control of the Senate could hinge on outcomes in states like this. Voters in the state will likely see an asymmetric air war if the financial disparity persists through the summer."
     },
-    scenarios: [
-    {
-      type: "",
-      label: "",
-      body: ""
-    }
-    ]
+    scenarios: []
   },
   {
     id: "barr-keeps-cash-lead-kentucky-senate-gop-primary",
     title: "Barr Keeps Cash Lead in Kentucky Senate GOP Primary",
-    dek: "Rep. Andy Barr holds a nearly \$4.2 million war chest as the Kentucky Senate Republican primary heats up.",
+    dek: "Rep. Andy Barr holds a nearly $4.2 million war chest as the Kentucky Senate Republican primary heats up.",
     category: "Politics",
     section: "politics",
     date: "April 25, 2026",
     readTime: "6 min read",
     featured: false,
     developing: false,
+    image: "",
     keyPoints: [
-    "Rep. Andy Barr leads Kentucky Senate GOP primary rivals in cash on hand with nearly \$4.2 million., The fundraising advantage gives Barr a structural edge in paid media and ground operations heading into the primary., Rivals will need to close the financial gap quickly or rely on outside spending to remain competitive."
+      "Rep. Andy Barr leads Kentucky Senate GOP primary rivals in cash on hand with nearly $4.2 million.",
+      "The fundraising advantage gives Barr a structural edge in paid media and ground operations heading into the primary.",
+      "Rivals will need to close the financial gap quickly or rely on outside spending to remain competitive."
     ],
     body: {
-      whatHappened: "Rep. Andy Barr holds a cash-on-hand lead of nearly \$4.2 million in the Kentucky Republican Senate primary. The fundraising figures reflect the most recent filing period and place Barr ahead of his primary competitors. The seat is open following Sen. Mitch McConnell's announcement that he would not seek another term.",
+      whatHappened: "Rep. Andy Barr holds a cash-on-hand lead of nearly $4.2 million in the Kentucky Republican Senate primary. The fundraising figures reflect the most recent filing period and place Barr ahead of his primary competitors. The seat is open following Sen. Mitch McConnell's announcement that he would not seek another term.",
       analysis: "Money does not guarantee primary victories, but it creates compounding advantages that are difficult for rivals to overcome. Barr can lock in early advertising rates, build a professional field operation, and weather unexpected attacks without scrambling for emergency fundraising. In Senate primaries with crowded fields, candidates who trail badly in cash often depend on super PAC intervention or earned media from controversy, both of which are unreliable substitutes. Kentucky's GOP primary electorate leans heavily toward candidates with institutional credibility, and a strong war chest signals exactly that to donors, party operatives, and voters who read endorsement cues from financial momentum. The open seat dynamic also raises the stakes considerably, as the winner is heavily favored in a general election in a state Donald Trump carried by wide margins. Barr's incumbency as a House member gives him a donor network that challengers without federal fundraising experience will struggle to replicate.",
       whyItMatters: "A well-funded primary frontrunner can define rivals before those rivals define themselves, a decisive advantage in a low-information primary race. Voters who lack strong candidate preferences often default to the candidate they recognize, and name recognition is purchased largely through advertising. Outside groups backing underfunded challengers will face pressure to spend early and heavily just to keep the race competitive. The eventual Republican nominee is widely expected to win the general election, making the primary the decisive contest for who represents Kentucky in the Senate."
     },
-    scenarios: [
-    {
-      type: "",
-      label: "",
-      body: ""
-    }
-    ]
+    scenarios: []
   },
   {
     id: "iran-ship-seizure",
@@ -133,6 +121,7 @@ export const articles = [
     readTime: "8 min read",
     featured: true,
     developing: false,
+    image: "",
     keyPoints: [
       "US naval forces boarded and seized an Iranian-flagged cargo vessel in the Gulf of Oman, releasing video footage.",
       "President Trump described the seizure as enforcement of a naval blockade — a term with demanding legal meaning under international law.",
@@ -172,6 +161,7 @@ export const articles = [
     readTime: "4 min read",
     featured: false,
     developing: true,
+    image: "",
     keyPoints: [
       "A Kuwaiti court acquitted journalist Ahmed Shihab-Eldin on charges of spreading false information via social media reposts.",
       "The case drew international attention because Shihab-Eldin holds dual US-Kuwaiti citizenship.",
@@ -205,6 +195,7 @@ export const articles = [
     readTime: "6 min read",
     featured: false,
     developing: false,
+    image: "",
     keyPoints: [
       "The DEA finalized a rule reclassifying cannabis from Schedule I to Schedule III under the Controlled Substances Act.",
       "The change does not legalize recreational marijuana at the federal level.",
