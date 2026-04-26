@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "dems-have-made-up-ground-in-nearly-every-election-since-trump-took-office",
+    title: "Democrats Have Made Up Ground in Nearly Every Election Since Trump Took Office",
+    dek: "A POLITICO analysis finds consistent Democratic overperformance across red and blue districts in every special election since January 2025.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "[9.jsonResponse.image]",
+    keyPoints: [
+    "Democrats have outperformed their 2024 baseline in nearly every special election held since Trump returned to office., The trend holds across both reliably Republican and reliably Democratic districts, suggesting broad national sentiment rather than local factors., Analysts say the pattern poses a structural warning for Republicans heading into the 2026 midterm cycle."
+    ],
+    body: {
+      whatHappened: "A POLITICO analysis of special elections held since President Trump took office in January 2025 shows Democrats have improved on their 2024 vote share in nearly every contest. The trend spans geographically and politically diverse districts, from deep-red rural seats to competitive suburban ones. No single race has reversed the pattern.",
+      analysis: "Consistent overperformance across divergent districts is a leading indicator political scientists treat seriously because it strips out local candidate quality and fundraising advantages. When the shift appears in both safe Republican and safe Democratic seats, it points to a nationalized environment driven by presidential approval and party brand rather than local conditions. Historical precedent from 2009 to 2010 and 2017 to 2018 shows that sustained special-election swings of this magnitude reliably translate into midterm seat losses for the party holding the White House. The magnitude matters as much as direction: small but consistent shifts compound across hundreds of competitive districts and can flip chamber control even without a single dramatic wave race. Republicans currently hold thin House and Senate margins, meaning even a modest uniform swing could realign both chambers. Democrats face their own structural challenge in converting enthusiasm into turnout operations and candidate recruitment before November 2026.",
+      whyItMatters: "Republican incumbents in districts Trump carried by single digits face a measurably higher re-election risk if the trend holds through 2026. Democratic campaign committees gain leverage in recruiting higher-quality challengers and attracting donor capital when they can point to a sustained data pattern. Voters in competitive districts who have drifted toward Democrats in low-turnout special elections may prove even more decisive in a high-turnout midterm environment. The White House and congressional Republican leadership must now weigh whether policy adjustments or candidate support can arrest a trend that has persisted across multiple independent electoral tests."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "forced-out-of-the-military-and-into-the-redistricting-wars",
     title: "Forced Out of the Military and Into the Redistricting Wars",
     dek: "Bree Fram's Virginia congressional campaign depends heavily on whether voters approve a redistricting referendum that could reshape her district's political landscape.",
