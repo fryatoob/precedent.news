@@ -2,6 +2,7 @@
  * Precedent.news — Design Tokens
  * Editorial Brutalism: stark, fast, authoritative
  */
+
 :root {
   /* Color */
   --black:        #080807;
@@ -15,25 +16,30 @@
   --gray-30:      #ADADAB;
   --gray-10:      #E5E5E2;
   --gray-05:      #F2F2EF;
+
   /* Typography */
   --font-headline: 'Bebas Neue', 'Arial Narrow', Arial, sans-serif;
   --font-display:  'Playfair Display', Georgia, serif;
   --font-body:     'Source Serif 4', Georgia, serif;
   --font-ui:       'DM Mono', 'Courier New', monospace;
+
   /* Layout */
   --max-w:      1280px;
   --content-w:  720px;
   --gutter:     clamp(20px, 4vw, 48px);
+
   /* Spacing */
   --s1: 4px;   --s2: 8px;   --s3: 12px;
   --s4: 16px;  --s5: 20px;  --s6: 24px;
   --s8: 32px;  --s10: 40px; --s12: 48px;
   --s16: 64px; --s20: 80px;
+
   /* Motion */
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --fast: 150ms;
   --base: 250ms;
   --slow: 500ms;
+
   /* Borders */
   --border-heavy: 2px solid var(--black);
   --border-light: 1px solid var(--gray-10);
