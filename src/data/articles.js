@@ -20,6 +20,33 @@
 
 export const articles = [
   {
+    id: "sherrod-brown-posts-big-cash-advantage-over-jon-husted",
+    title: "Sherrod Brown Posts Big Cash Advantage Over Jon Husted",
+    dek: "Brown raised more than \$10.1 million in the first quarter, building a commanding financial lead in the Ohio Senate race.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Brown raised more than \$10.1 million in the first quarter of the year., The haul gives Brown a significant cash-on-hand advantage over Republican challenger Jon Husted., Ohio is a key battleground state that will draw national attention and spending heading into the election."
+    ],
+    body: {
+      whatHappened: "Sen. Sherrod Brown raised more than \$10.1 million in the first quarter of the year, outpacing Republican challenger Jon Husted in fundraising. The figures give Brown a substantial financial advantage as the two head toward a competitive Ohio Senate race. Brown, a Democrat, has held the seat since 2007 in a state that has trended Republican in recent cycles.",
+      analysis: "Fundraising leads of this magnitude matter most in the early and middle stages of a campaign, when advertising buys and ground organization are established. Brown's ability to raise \$10.1 million in a single quarter signals strong small-dollar donor engagement, which typically indicates both enthusiasm and a durable fundraising base that can be tapped repeatedly. Husted, as a statewide officeholder, has name recognition, but cash deficits at this stage force challengers to make difficult resource allocation choices that can limit reach in a large and expensive media market state like Ohio. National party committees on both sides will use this gap to calibrate how much outside money to deploy, with Republicans potentially needing to compensate for Husted's shortfall to remain competitive.",
+      whyItMatters: "Brown's cash advantage gives him early control over the airwaves and the ability to define both himself and Husted before the general election intensifies. Husted faces pressure to close the gap quickly or risk ceding the narrative to Brown's campaign messaging. For Ohio Republicans, a funding deficit in a must-win state complicates broader Senate majority calculations. National donors on both sides will treat this race as a bellwether for their investment strategies across competitive Senate contests."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "mark-kelly-cashing-in-trump-seditious-six-attacks",
     title: "Mark Kelly Keeps Cashing In on Trump's 'Seditious Six' Attacks",
     dek: "The Arizona senator's fundraising surge from Trump's attacks fuels growing speculation about a 2028 presidential run.",
