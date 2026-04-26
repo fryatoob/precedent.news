@@ -208,6 +208,11 @@ export function renderArticle() {
         <span class="article-header__meta-divider"></span>
         <span class="ts">Precedent.news</span>
       </div>
+      ${article.image ? `
+        <div class="article-header__image">
+          <img src="${article.image}" alt="${article.title}" style="width:100%;max-height:480px;object-fit:cover;display:block;margin-top:var(--s8);border:2px solid var(--gray-10);">
+        </div>
+      ` : ''}
     `;
   }
 
@@ -218,7 +223,7 @@ export function renderArticle() {
       <li class="key-points__item">${p}</li>
     `).join('') || '';
 
-    const scenarios = article.scenarios?.map(s => `
+    const scenarios = article.scenarios?.filter(s => s.type && s.label && s.body).map(s => `
       <div class="scenario ${s.type === 'likely' ? 'scenario--likely' : ''}">
         <div class="scenario__label">${s.label}</div>
         <p class="scenario__body">${s.body}</p>
@@ -226,7 +231,7 @@ export function renderArticle() {
     `).join('') || '';
 
     bodyEl.innerHTML = `
-      ${article.keyPoints ? `
+      ${article.keyPoints?.length ? `
         <div class="key-points">
           <div class="key-points__title">Key Points</div>
           <ul class="key-points__list">${keyPoints}</ul>
