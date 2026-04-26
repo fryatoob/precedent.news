@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "dems-brace-for-close-finish-on-virginia-redistricting-effort",
+    title: "Democrats Brace for Close Finish on Virginia Redistricting Effort",
+    dek: "A successful redistricting push could give Democrats a 10-1 House seat advantage in Virginia and a net gain of up to four seats.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "3 min read",
+    featured: false,
+    developing: false,
+    image: "https://static.politico.com/cf/57/9f94e6c54268a2d7da9dabc19725/https-delivery-gettyimages.com/downloads/2271849972",
+    keyPoints: [
+    "Virginia Democrats are pushing a redistricting plan that could reshape the state's congressional map significantly., If approved, the new map would give Democrats a 10-1 seat advantage in Virginia's House delegation., The effort could result in a net pickup of as many as four House seats for Democrats nationally."
+    ],
+    body: {
+      whatHappened: "Virginia Democrats are working to advance a redistricting plan that would redraw the state's congressional districts in their favor. If the effort succeeds, Democrats could hold 10 of the state's 11 congressional seats. The push represents one of the more aggressive redistricting maneuvers ahead of the next election cycle.",
+      analysis: "Redistricting is one of the most direct levers a party can pull to shift House seat totals without winning a single additional vote share nationally. A 10-1 Democratic delegation in Virginia would represent a dramatic reversal from more competitive maps and reflects a broader Democratic strategy to use state-level power to offset gerrymandering in Republican-controlled legislatures elsewhere. The net four-seat pickup potential is significant given that House majorities in recent cycles have been decided by margins in the single digits. Virginia's redistricting process involves judicial oversight and legislative action, meaning the outcome depends on both political will and legal scrutiny. Courts have historically intervened when maps appear to subordinate traditional districting criteria to partisan advantage, giving opponents a viable litigation path. The close finish Democrats anticipate signals that the votes needed for approval remain uncertain, and even a narrow failure would leave the current map intact.",
+      whyItMatters: "House Republicans stand to lose as many as four seats if the Virginia map is redrawn, a consequential shift in a chamber where the majority is razor-thin. Virginia voters in redrawn districts could find their representation altered substantially, with some communities moved into newly configured seats. Democratic leaders see the effort as a counterweight to Republican gerrymanders in states like Texas and North Carolina. A failed push would reinforce the status quo and deny Democrats a key structural advantage heading into the next election."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "rival-pacs-line-up-to-target-gop-cosponsors-of-immigration-bill",
     title: "Rival PACs Line Up to Target GOP Cosponsors of Immigration Bill",
     dek: "The Dignity Act, a bipartisan immigration reform bill, has ignited a conservative backlash with outside groups threatening Republican supporters.",
