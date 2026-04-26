@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "grindr-is-on-the-political-rise",
+    title: "Grindr Expands Political Presence Under Trump's Second Term",
+    dek: "The LGBTQ+ dating app is building out its lobbying and advocacy footprint as federal policy shifts threaten its user base.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "https://static.politico.com/20/9e/b40922ed429eaf927790c9c885a8/https-delivery-gettyimages.com/downloads/2270287844",
+    keyPoints: [
+    "Grindr has increased its political and lobbying activity since Donald Trump returned to the White House in January 2025., The company is targeting a range of policy priorities that affect LGBTQ+ users, including nondiscrimination protections and data privacy., Grindr's expanded influence campaign marks a shift from its historically low-profile approach to Washington politics."
+    ],
+    body: {
+      whatHappened: "Grindr, the LGBTQ+ dating and social networking app, has stepped up its political engagement in Washington since President Donald Trump began his second term. The company has broadened its lobbying efforts and public advocacy on policy issues that directly affect its users. Grindr is pushing on multiple fronts including data privacy, LGBTQ+ nondiscrimination rules, and federal civil rights enforcement.",
+      analysis: "Grindr's political pivot reflects a calculated response to a federal policy environment that many LGBTQ+ advocates view as increasingly hostile. Companies with concentrated, identifiable user bases face acute regulatory risk when the political climate shifts against those users, creating strong incentives to invest in direct lobbying rather than rely on coalition advocacy alone. Grindr also holds sensitive personal data on millions of users, making data privacy legislation a core commercial interest as much as a civil rights concern. The company's move mirrors a broader pattern in which tech platforms with politically vulnerable user communities build Washington infrastructure to hedge against regulatory and enforcement risk. Grindr's ownership structure, which includes a significant stake held by a San Vicente Acquisition vehicle with ties to investors scrutinized for national security reasons, adds another layer of political complexity to its Washington strategy. By raising its profile now, Grindr may also be positioning itself to shape any future legislative debates over digital privacy or LGBTQ+ civil rights rather than react to them.",
+      whyItMatters: "LGBTQ+ users of the platform stand to benefit if Grindr successfully lobbies to maintain or strengthen data privacy protections that shield their identities and location data from government access or commercial misuse. Civil rights organizations gain a well-resourced corporate ally at a moment when federal enforcement of LGBTQ+ nondiscrimination rules has weakened. Competing platforms and advertisers will watch closely to see whether Grindr's political strategy attracts regulatory scrutiny or backlash that affects its business. Conservative advocacy groups are likely to push back against Grindr's influence campaign, framing it as a corporate attempt to resist legitimate federal policy changes."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "gop-virginia-gerrymandering-loss-finger-pointing",
     title: "Virginia Republicans Point Fingers After Gerrymandering Loss",
     dek: "GOP insiders fault the party for underinvesting in the redistricting fight and are now leaning on Florida to recover lost ground.",
