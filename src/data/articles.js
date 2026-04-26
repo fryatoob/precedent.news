@@ -20,6 +20,33 @@
 
 export const articles = [
   {
+    id: "albanys-influence-wars",
+    title: "Albany's Influence Wars",
+    dek: "Competing lobbying interests are reshaping the balance of power in New York's state capital.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "4 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Lobbying activity in Albany has intensified as major industry and advocacy groups compete for legislative access, Key policy battles over housing, healthcare, and energy are drawing record spending from organized interests, Lawmakers face mounting pressure from both corporate donors and grassroots coalitions ahead of the budget cycle"
+    ],
+    body: {
+      whatHappened: "Lobbying expenditures in Albany have surged as competing interest groups seek to shape New York state legislation on housing, healthcare, and energy policy. Industry coalitions and advocacy organizations have deployed lobbyists and campaign contributions to secure access to key committee chairs and leadership offices. The activity intensifies as the state legislature approaches critical budget and policy deadlines.",
+      analysis: "Albany has long operated as a three-men-in-a-room system, concentrating power in the governor, the Assembly speaker, and the Senate majority leader, which creates a small number of high-value access points that lobbyists can target efficiently. This structural concentration raises the return on lobbying investment relative to more diffuse legislatures, attracting proportionally higher spending per bill. When budget deadlines compress the legislative calendar, the opportunity cost of inaction rises sharply for interest groups, pushing spending higher still. Corporate interests typically hold an organizational advantage over diffuse public constituencies because they can sustain year-round lobbying operations rather than mobilizing episodically. Disclosure rules in New York require lobbyists to report expenditures above certain thresholds, but coordination through nonprofit intermediaries and coalition front groups can obscure the true origin of influence campaigns. The net effect is a market for political access where well-financed groups extract policy rents at the expense of unorganized taxpayers and consumers.",
+      whyItMatters: "Industries with concentrated stakes in Albany decisions, including real estate developers, hospital networks, and utilities, stand to gain or lose hundreds of millions of dollars depending on regulatory and budget outcomes. Tenant advocates, patient groups, and environmental coalitions with smaller war chests face structural disadvantages in sustained influence campaigns. Rank-and-file New Yorkers bear the fiscal and regulatory costs of policies shaped by opaque lobbying battles they cannot easily monitor. Legislators in competitive districts face the sharpest tradeoffs between donor demands and constituent preferences as election cycles approach."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "dirk-kempthorne-former-idaho-governor-us-interior-secretary-dies-at-74",
     title: "Dirk Kempthorne, Former Idaho Governor and U.S. Interior Secretary, Dies at 74",
     dek: "The Republican politician served as governor of Idaho and led the Interior Department under President George W. Bush.",
