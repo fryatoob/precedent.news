@@ -19,6 +19,33 @@
 
 export const articles = [
   {
+    id: "nations-cartoonists-on-the-week-in-politics",
+    title: "The Nation's Cartoonists on the Week in Politics",
+    dek: "Political cartoonists from across the spectrum capture the defining moments of the week in Washington and beyond.",
+    category: "Politics",
+    section: "politics",
+    date: "April 25, 2026",
+    readTime: "2 min read",
+    featured: false,
+    developing: false,
+    image: "",
+    keyPoints: [
+    "Weekly political cartoons from artists across the ideological spectrum highlight key events in American politics, Cartoonists target hypocrisy, irony, and notable political moments from the past week, The collection is curated and edited by Politico cartoonist Matt Wuerker"
+    ],
+    body: {
+      whatHappened: "Political cartoonists from across the country submitted work this week satirizing the latest events in American politics. The collection, edited by Matt Wuerker, draws from artists representing a wide range of political viewpoints. The cartoons address recurring themes including political hypocrisy, policy failures, and prominent public figures.",
+      analysis: "Political cartoons function as a distinct form of public accountability, compressing complex policy debates into single images that reach audiences who may not read traditional news coverage. The diversity of ideological perspectives in a curated collection like this signals an effort to reflect national political tensions rather than advocate for one side. Cartoonists operate with fewer legal and editorial constraints than reporters, allowing sharper commentary on political behavior. The weekly format creates a running record of which stories generated the strongest public reaction, offering a useful barometer of political salience. Editors like Wuerker wield influence over which narratives receive visual amplification, a curatorial role that carries its own editorial weight.",
+      whyItMatters: "Readers across the political spectrum consume cartoon commentary differently than written analysis, making this format an unusually broad-reaching form of political communication. Politicians and their communications teams monitor satirical coverage closely, as cartoons can crystallize negative narratives in ways that persist in public memory. Media organizations that publish these collections benefit from engagement driven by both agreement and outrage. Independent cartoonists gain platform exposure, while readers get a condensed visual summary of the week's political flashpoints."
+    },
+    scenarios: [
+    {
+      type: "",
+      label: "",
+      body: ""
+    }
+    ]
+  },
+  {
     id: "tammy-haddad-barbra-streisand-trump-dc-alist-weekend",
     title: "Tammy Haddad on Barbra Streisand, Trump and DC's A-List Weekend",
     dek: "Washington power broker Tammy Haddad navigates the intersection of celebrity culture and political influence in the capital.",
