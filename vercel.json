@@ -4,6 +4,10 @@
     "api/publish.js": {
       "memory": 256,
       "maxDuration": 15
+    },
+    "api/article.js": {
+      "memory": 256,
+      "maxDuration": 10
     }
   },
   "headers": [
@@ -17,6 +21,7 @@
     }
   ],
   "rewrites": [
-    { "source": "/article/:id", "destination": "/pages/article.html" }
+    { "source": "/article/:id", "destination": "/api/article?id=:id" },
+    { "source": "/pages/article.html", "destination": "/api/article" }
   ]
 }
